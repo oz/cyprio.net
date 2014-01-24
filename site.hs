@@ -1,7 +1,8 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
-import           Data.Monoid (mappend, mconcat)
-import           Hakyll
+import Data.Monoid (mappend, mconcat)
+import Data.Functor ((<$>))
+import Hakyll
 
 --------------------------------------------------------------------------------
 main :: IO ()
@@ -56,10 +57,11 @@ main = hakyll $ do
     match "index.html" $ do
         route idRoute
         compile $ do
-            posts <- recentFirst =<< loadAll "wtf/*.md"
+            posts <- loadAll "wtf/*.md"
+            sorted_posts <- take 3 <$> recentFirst posts
             let indexCtx =
-                    listField "posts" postCtx (return posts) `mappend`
-                    constField "title" "Home"                `mappend`
+                    listField "posts" postCtx (return sorted_posts) `mappend`
+                    constField "title" "Home"                       `mappend`
                     defaultContext
 
             getResourceBody
