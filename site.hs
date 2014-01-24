@@ -28,10 +28,10 @@ main = hakyll $ do
         route   idRoute
         compile compressCssCompiler
 
-    -- Compile Sass styles
-    match "css/main.scss" $ do
+    -- Compile Stylus files to CSS
+    match "css/main.styl" $ do
         route   $ setExtension "css"
-        compile $ getResourceString >>= sassify
+        compile $ getResourceString >>= stylus
 
     match (fromList ["about.md", "contact.md"]) $ do
         route   $ setExtension "html"
@@ -84,7 +84,7 @@ main = hakyll $ do
 -- RSS feed
     create ["wtf/index.xml"] $ do
             route idRoute
-            compile $ do
+            compile $
                     loadAllSnapshots "wtf/*.md" "content"
                     >>= fmap (take 10) . recentFirst
                     >>= renderRss wtfFeedConfig feedCtx
@@ -92,7 +92,7 @@ main = hakyll $ do
 -- Atom feed
     create ["wtf/atom.xml"] $ do
             route idRoute
-            compile $ do
+            compile $
                     loadAllSnapshots "wtf/*.md" "content"
                     >>= fmap (take 10) . recentFirst
                     >>= renderAtom wtfFeedConfig feedCtx
@@ -123,6 +123,6 @@ postCtx =
     defaultContext
 
 --------------------------------------------------------------------------------
-sassify :: Item String -> Compiler (Item String)
-sassify item = withItemBody (unixFilter "sass" ["-s", "--scss", "--load-path", "css"]) item
+stylus :: Item String -> Compiler (Item String)
+stylus item = withItemBody (unixFilter "stylus" ["-I", "css"]) item
                >>= return . fmap compressCss
