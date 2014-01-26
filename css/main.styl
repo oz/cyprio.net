@@ -1,30 +1,20 @@
-$backgroundColor    = #343434
-$textColor          = #fff
-$linkColor          = #D9E85F
-$imgCaptionColor    = #fff
-$articleHeaderColor = #bbb
-$footerBorderColor  = #444
+@import "vendor/normalize"
 
-@import "normalize"
+@import "colors"
+@import "transitions"
 
-body
-  background-color $backgroundColor
-  color $textColor
-
-header, #content, footer
-  margin auto 10%
-  width 60%
-  padding 20px 10%
-
-footer
-  border-top 1px solid $footerBorderColor
-  margin-top 3em
-  font-family sans-serif
-  font-size 0.7em
-  text-align right
-
-// ---------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 // Common styles
+
+text-font()
+  font-family Georgia, serif
+  font-size 1.2em
+  line-height 1.6em
+
+pre, code
+  font-family monospace
+  font-size 0.9em
+  line-height: 1.4em
 
 a, a:visited, a:hover, a:focus, a:active
   color $linkColor
@@ -39,23 +29,66 @@ a:hover
   font-family sans-serif
   font-size 0.7em
 
-/* ------------------------------------------------------------------------- */
-/* Blog article */
-article
-  font-family serif
+h1, h2, h3
+  font-family "verdana", sans-serif
+  color $titlesColor
+
+h1
+  font-size 1.4em
+  border-top 1px $titlesBorderColor solid
+
+h2
   font-size 1.2em
-  line-height 1.6em
 
-  header
-    margin 0
-    padding 0
-    .date
-      margin 0 0 0 2em
+h3
+  font-size 1em
 
-  .figure, img
-      margin 0 10%
-      .caption
-        color $imgCaptionColor
-        text-align right
-        font-size 1em
-        margin-top 0px
+hr
+  border-top none
+  border-left none
+  border-right none
+  border-bottom 1px $separatorBorderColor solid
+
+// ----------------------------------------------------------------------------
+// Layout
+
+@import "layout-default"
+@media all and (max-width: 699px) {
+  @import "layout-small"
+}
+
+
+// ----------------------------------------------------------------------------
+// Logo style
+
+#logo
+  color #fff
+  font-family "Lucida Grande","Tahoma"
+  font-size 10px
+  line-height 8px
+  text-transform uppercase
+  letter-spacing 4px
+  text-align center
+  width 200px
+  margin 0px auto 50px
+
+  a
+    color #fff
+    border none
+
+// ----------------------------------------------------------------------------
+// Navigation
+nav
+  width 100%
+  padding 2px
+  font-weight bolder
+  a
+    border none
+    display block
+    float left
+    padding 2px 4px
+    transition all 0.2s ease-in
+  a:hover
+    background-color: #444;
+
+@import "article"
