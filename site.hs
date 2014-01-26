@@ -73,13 +73,30 @@ main = hakyll $ do
 
 -------------------------------------------------------------------------------
 -- Bloggy thing
+
+    match "templates/wtf/*" $ compile templateCompiler
+
     match "wtf/*.md" $ do
         route $ setExtension "html"
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/post.html"    postCtx
+            >>= loadAndApplyTemplate "templates/wtf/post.html" postCtx
             >>= saveSnapshot "content"
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
+
+    create ["wtf/index.html"] $ do
+        route idRoute
+        compile $ do
+            posts <- recentFirst =<< loadAll "wtf/*.md"
+            let archiveCtx =
+                    listField "posts" postCtx (return posts) `mappend`
+                    constField "title" "WTF?"                `mappend`
+                    defaultContext
+
+            makeItem ""
+                >>= loadAndApplyTemplate "templates/wtf/index.html" archiveCtx
+                >>= loadAndApplyTemplate "templates/default.html" archiveCtx
+                >>= relativizeUrls
 
 -- RSS feed
     create ["wtf/index.xml"] $ do
