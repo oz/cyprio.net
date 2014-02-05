@@ -3,10 +3,13 @@
 import Data.Monoid (mappend, mconcat)
 import Data.Functor ((<$>))
 import Hakyll
+import System.Exit (ExitCode(..))
+import System.Process (system)
+import System.Environment (lookupEnv)
 
 --------------------------------------------------------------------------------
 main :: IO ()
-main = hakyll $ do
+main = hakyllWith config $ do
     match "img/*" $ do
         route   idRoute
         compile copyFileCompiler
@@ -98,6 +101,7 @@ main = hakyll $ do
                     loadAllSnapshots "wtf/*.md" "content"
                     >>= fmap (take 10) . recentFirst
                     >>= renderAtom wtfFeedConfig feedCtx
+
 -------------------------------------------------------------------------------
 -- Feeds stuff
 feedCtx :: Context String
@@ -128,3 +132,29 @@ postCtx =
 stylus :: Item String -> Compiler (Item String)
 stylus item = withItemBody (unixFilter "stylus" ["-I", "css"]) item
                >>= return . fmap compressCss
+
+
+--------------------------------------------------------------------------------
+-- Customize the "deploy" command.
+
+config :: Configuration
+config = defaultConfiguration { deploySite = doDeploy }
+
+-- Custom deploy function: use rsync over SSH. Set the "DEST" environment
+-- variable to deploy to other mirrors.
+doDeploy :: Configuration -> IO ExitCode
+doDeploy _ = deployCmd >>= system
+
+deployProgram :: String
+deployProgram = "rsync -av --delete -e 'ssh' _site/ "
+
+defaultDeployDest :: String
+defaultDeployDest = "oz@cyprio.net:/usr/local/www/cyprio.net/www/data"
+
+-- Lookup DEST env var, to build a deploy command.
+deployCmd :: IO String
+deployCmd = do
+        dest <- lookupEnv "DEST"
+        return $ case dest of Nothing -> deployProgram ++ defaultDeployDest
+                              Just x  -> deployProgram ++ x
+
