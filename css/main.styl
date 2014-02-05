@@ -7,9 +7,9 @@
 // Common styles
 
 text-font()
-  font-family Georgia, serif
+  font-family 'Vollkorn', Georgia, serif
   font-size 1.2em
-  line-height 1.6em
+  line-height 1.5em
 
 pre, code
   font-family monospace
@@ -22,6 +22,7 @@ a, a:visited, a:hover, a:focus, a:active
   border-bottom 1px $linkBorderColor dotted
 
 a:hover
+  color lighten($linkColor, 20)
   border-bottom 1px $linkBorderColor solid
 
 .date
@@ -30,12 +31,14 @@ a:hover
   font-size 0.7em
 
 h1, h2, h3
-  font-family "verdana", sans-serif
+  font-family 'Lobster', Georgia, serif
   color $titlesColor
 
 h1
-  font-size 1.4em
-  border-top 1px $titlesBorderColor solid
+  font-size 1.3em
+  letter-spacing 2px
+  border-top 1px darken($titlesBorderColor, 2) solid
+  text-shadow 0 1px 1px #000
 
 h2
   font-size 1.2em
@@ -82,14 +85,16 @@ hr
 nav
   width 100%
   padding 2px
+  font-family 'Lobster', sans-serif
   font-weight bolder
+  font-size 1.2em
+  text-align center
   a
     border none
-    display block
-    float left
     padding 2px 4px
     transition all 0.2s ease-in
   a:hover
-    background-color: #444;
+    border none
+    text-shadow 0px 1px 6px #000
 
 @import "article"
