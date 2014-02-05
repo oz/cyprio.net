@@ -47,7 +47,7 @@ my time in [Urxvt][urxvt] terminals running [tmux][tmux], and let
 [Xmonad][xmonad] manage windows for me.  I use [Firefox][firefox] for browsing,
 and [Chromium][chromium] for web development. I store my passwords in
 [KeepassX][keepass], and synchronize files between various disks using
-[Bittorrent Sync][btsync].
+a combination of [Bittorrent Sync][btsync] and [git-annex][gitannex].
 
 Daily, I'm editing code in [VIM][vim] using a combination of [Ruby][ruby],
 [Javascript][node], [Go][golang], and [Haskell][haskell]... I'd also like to
@@ -65,6 +65,7 @@ and I don't want a bigger screen.
 [x220]: http://www.thinkwiki.org/wiki/Category:X220
 [keepass]: http://www.keepassx.org/
 [btsync]: http://www.bittorrent.com/sync
+[gitannex]: http://git-annex.branchable.com/
 [iphone_4s]: https://en.wikipedia.org/wiki/IPhone_4S
 [tmux]: http://tmux.sourceforge.net/
 [debian]: http://debian.org/
