@@ -88,39 +88,39 @@ main = hakyllWith config $ do
 
 -- RSS feed
     create ["wtf/index.xml"] $ do
-            route idRoute
-            compile $
-                    loadAllSnapshots "wtf/*.md" "content"
-                    >>= fmap (take 10) . recentFirst
-                    >>= renderRss wtfFeedConfig feedCtx
+        route idRoute
+        compile $
+            loadAllSnapshots "wtf/*.md" "content"
+            >>= fmap (take 10) . recentFirst
+            >>= renderRss wtfFeedConfig feedCtx
 
 -- Atom feed
     create ["wtf/atom.xml"] $ do
-            route idRoute
-            compile $
-                    loadAllSnapshots "wtf/*.md" "content"
-                    >>= fmap (take 10) . recentFirst
-                    >>= renderAtom wtfFeedConfig feedCtx
+        route idRoute
+        compile $
+            loadAllSnapshots "wtf/*.md" "content"
+            >>= fmap (take 10) . recentFirst
+            >>= renderAtom wtfFeedConfig feedCtx
 
 -------------------------------------------------------------------------------
 -- Feeds stuff
 feedCtx :: Context String
 feedCtx = mconcat
-        [ bodyField "description"
-        , defaultContext
-        ]
+    [ bodyField "description"
+    , defaultContext
+    ]
 
 wtfFeedConfig :: FeedConfiguration
 wtfFeedConfig = feedConfig " - Latest wtf posts"
 
 feedConfig :: String -> FeedConfiguration
 feedConfig title = FeedConfiguration
-        { feedTitle       = "Mostly harmless" ++ title
-        , feedDescription = "rants and moods from Mexico"
-        , feedAuthorName  = "oz"
-        , feedAuthorEmail = "oz@cyprio.net"
-        , feedRoot        = "http://cyprio.net"
-        }
+    { feedTitle       = "Mostly harmless" ++ title
+    , feedDescription = "rants and moods from Mexico"
+    , feedAuthorName  = "oz"
+    , feedAuthorEmail = "oz@cyprio.net"
+    , feedRoot        = "http://cyprio.net"
+    }
 
 --------------------------------------------------------------------------------
 postCtx :: Context String
@@ -154,7 +154,6 @@ defaultDeployDest = "oz@cyprio.net:/usr/local/www/cyprio.net/www/data"
 -- Lookup DEST env var, to build a deploy command.
 deployCmd :: IO String
 deployCmd = do
-        dest <- lookupEnv "DEST"
-        return $ case dest of Nothing -> deployProgram ++ defaultDeployDest
-                              Just x  -> deployProgram ++ x
-
+    dest <- lookupEnv "DEST"
+    return $ case dest of Nothing -> deployProgram ++ defaultDeployDest
+                          Just x  -> deployProgram ++ x
