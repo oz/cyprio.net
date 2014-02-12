@@ -2,5 +2,5 @@
 title: Philosophie
 ---
 
-![lazy.gif](http://wtf.cyprio.net/user/files/media/lazy.gif)
+![lazy.gif](http://static.cyprio.net/wtf/media/lazy.gif)
 

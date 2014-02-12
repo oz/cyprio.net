@@ -20,8 +20,7 @@ Twitter, this may change, I hope).
 
 Then again, I stumbled on this particular problem this morning:
 
-![ipad support](http://wtf.cyprio.net/user/files/./2013-01-08-082540_572x101_s
-crot.png)
+![ipad support](http://static.cyprio.net/wtf/./2013-01-08-082540_572x101_scrot.png)
 
 Maybe it happened to you: there's this USB stick with a bunch of photos on it,
 and you want them on your tablet. So that you can share them later, it's a
@@ -54,4 +53,3 @@ device is ridiculously hard these days.
 Bizarrely, you know who got that right years ago? Debian, Debian fucking-
 stable: plug Android tablet, get a desktop icon, throw some files at it, eject
 device, go back to your morning coffee. Why should there be more to it?
-

@@ -10,5 +10,5 @@ example, [you've been skull-fucked](http://wtf.cyprio.net/less-wisdom).
 If this one's not your cup of tea, there are 7 other games. Name your price.
 :)
 
-![](http://wtf.cyprio.net/user/files/hotline-miami.jpg)
+![](http://static.cyprio.net/wtf/hotline-miami.jpg)
 

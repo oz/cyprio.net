@@ -4,5 +4,5 @@ title: Caffeine cat
 
 Current status:
 
-![hello kitty mug](http://wtf.cyprio.net/user/files/IMG_7526.jpg)
+![hello kitty mug](http://static.cyprio.net/wtf/IMG_7526.jpg)
 

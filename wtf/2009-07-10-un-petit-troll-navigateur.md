@@ -8,16 +8,16 @@ trouver qu'Iceweasel sous Debian me fait des fontes vraiment baveuses ?
 **Iceweasel 3.09**
 
 ![Exemple de rendu sur
-Iceweasel](http://wtf.cyprio.net/user/files/media/iceweasel.png)
+Iceweasel](http://static.cyprio.net/wtf/media/iceweasel.png)
 
 **Google Chrome 3.0.192.0**
 
 ![Exemple de rendu sous Google
-Chrome](http://wtf.cyprio.net/user/files/media/chromium.png)
+Chrome](http://static.cyprio.net/wtf/media/chromium.png)
 
 **Opera 9.64**
 
-![opera.png](http://wtf.cyprio.net/user/files/media/opera.png)
+![opera.png](http://static.cyprio.net/wtf/media/opera.png)
 
 Pourquoi Chrome, ou Opera s'en tirent mieux ? La faute de ma config. x.org, ou
 bien du moteur de rendu ? Le bon côté, c'est que ça ne donne pas envie de
@@ -26,7 +26,7 @@ surfer, et donc on reste plus volontier le nez dans d'autres applications plus
 `Ctrl-+` sous Opéra, Iceweasel, Chrome... Ahem, on sent comme une petite
 différence de technologies...
 
-![Exemple de rendu zoomé](http://wtf.cyprio.net/user/files/media/zoomed.png)
+![Exemple de rendu zoomé](http://static.cyprio.net/wtf/media/zoomed.png)
 
 J'ai pas franchement l'impression que Opera soit plus lent que le gecko, sans
 être non plus aussi rapide que Chrome (buahaha la claque qu'il leur met...).
