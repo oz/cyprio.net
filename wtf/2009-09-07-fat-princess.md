@@ -9,7 +9,7 @@ Sur l'article de wikipedia à propos de [Fat
 Princess](http://en.wikipedia.org/wiki/Fat_Princess).
 
 ![Feeding Fat
-Princess](http://wtf.cyprio.net/user/files/media/Feeding_Fat_Princess.jpg)
+Princess](http://static.cyprio.net/wtf/media/Feeding_Fat_Princess.jpg)
 
 Oui c'est mal, préjudice contre la femme, toussa... Mais s'en fout un peu,
 tellement c'est marrant de la gaver de gâteau, et de balancer des boules de

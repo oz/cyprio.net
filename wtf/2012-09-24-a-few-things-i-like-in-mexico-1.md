@@ -8,6 +8,4 @@ moment...
 
 Returnable bottles for a lot of things. From beers to coke:
 
-![Coke returnable glass bottle](http://wtf.cyprio.net/user/files/./coke-
-returnable-glass-bottle.jpg)
-
+![Coke returnable glass bottle](http://static.cyprio.net/wtf/coke-returnable-glass-bottle.jpg)

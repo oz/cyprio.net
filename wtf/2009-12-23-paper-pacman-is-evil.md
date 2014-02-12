@@ -2,5 +2,5 @@
 title: Paper pacman is evil
 ---
 
-![paper pacman](http://wtf.cyprio.net/user/files/media/evil-pacman.jpg)
+![paper pacman](http://static.cyprio.net/wtf/media/evil-pacman.jpg)
 

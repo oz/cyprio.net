@@ -16,6 +16,5 @@ nous garantissent une marge confortable, et nous permettent de diviser par
 trois (3) le prix d'un produit en période de soldes, tout en s'en mettant
 essentiellement plein les poches. ;) »
 
-![shooping_en_chine.png](http://wtf.cyprio.net/user/files/media/shooping_en_ch
-ine.png)
+![shooping_en_chine.png](http://static.cyprio.net/wtf/media/shooping_en_chine.png)
 

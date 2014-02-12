@@ -22,7 +22,7 @@ reviennent. Comme une grande claque de vent, ça prend par surprise mais ça
 fait plaisir.
 
 ![l'autre café -
-2006](http://wtf.cyprio.net/user/files/media/lautre_cafe_2006_nb_400.jpg)
+2006](http://static.cyprio.net/wtf/media/lautre_cafe_2006_nb_400.jpg)
 
 Cette photo, par exemple, date de la fin de 2006, qui fût _une putain de
 chouette année_. Pour moi. Je n'avouerais pas qui a pris la photo... juste que
