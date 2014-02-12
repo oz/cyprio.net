@@ -21,7 +21,7 @@ nouvel ordre.
 Pour ne pas flooder tous les lecteurs RSS du monde l'adresse de l'ancien feed
 est toujours accessible, mais **elle ne sera plus mise à jour**. Si vous
 souhaitez me suivre ce sera via Atom, sur [ce
-feed](http://wtf.cyprio.net/atom/1). Le mois prochain, je metterai en place
+feed](http://cyprio.net/wtf/atom.xml). Le mois prochain, je metterai en place
 une redirection entre l'ancien et le nouveau feed, pour les derniers
 retardataires, puis plus rien. Les anciens permaliens eux seront toujours
 actifs, avec la redirection qui va bien, merci mod_rewrite. :)
@@ -29,6 +29,5 @@ actifs, avec la redirection qui va bien, merci mod_rewrite. :)
 Pour ce qui est du look du site, c'est du vite fait, noir et blanc, aussi
 simple que possible. Mais ça me plait assez pour survivre quelques temps à mes
 sautes d'humeur. Pour les petites pages qui manquent... ça va revenir. J'ai un
-bon millier d'autres choses plus urgentes à faire, mais patience je ne fait
-pas qu'hiberner pendant mes vacances. Promis.
-
+bon millier d'autres choses plus urgentes à faire, mais patience je ne fait pas
+qu'hiberner pendant mes vacances. Promis.
