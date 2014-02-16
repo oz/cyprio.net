@@ -11,7 +11,8 @@ main :: IO ()
 main = hakyllWith config $ do
     match "templates/*" $ compile templateCompiler
     assetsRules
-    rantsRules
+    sectionRules "wtf"
+    sectionRules "reviews"
 
     match (fromList ["about.md", "contact.md"]) $ do
         route   $ setExtension "html"
@@ -55,50 +56,56 @@ assetsRules = do
         route   $ setExtension "css"
         compile $ getResourceString >>= stylusCompiler
 
+------------------------------------------------------------- [ Bloggy things ]
 
--------------------------------------------------------------- [ Bloggy thing ]
+sectionRules :: String -> Rules ()
+sectionRules name = do
+    let sectionHome     = fromFilePath (name ++ "/index.html")
+    let sectionFiles    = fromGlob (name ++ "/*.md")
+    let sectionTemplate = fromFilePath ("templates/" ++ name ++ "/post.html")
+    let indexTemplate   = fromFilePath ("templates/" ++ name ++ "/index.html")
+    let rssFeed         = fromFilePath (name ++ "/index.xml")
+    let atomFeed        = fromFilePath (name ++ "/atom.xml")
 
-rantsRules :: Rules ()
-rantsRules = do
-    match "templates/wtf/*" $ compile templateCompiler
+    match (fromGlob ("templates/" ++ name ++ "/*")) $ compile templateCompiler
 
-    match "wtf/*.md" $ do
+    match sectionFiles $ do
         route $ setExtension "html"
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/wtf/post.html" postCtx
+            >>= loadAndApplyTemplate sectionTemplate postCtx
             >>= saveSnapshot "content"
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
 
-    create ["wtf/index.html"] $ do
+    create [sectionHome] $ do
         route idRoute
         compile $ do
-            posts <- recentFirst =<< loadAll "wtf/*.md"
+            posts <- recentFirst =<< loadAll sectionFiles
             let archiveCtx =
                     listField "posts" postCtx (return posts) `mappend`
-                    constField "title" "WTF?"                `mappend`
+                    constField "title" name                  `mappend`
                     defaultContext
 
             makeItem ""
-                >>= loadAndApplyTemplate "templates/wtf/index.html" archiveCtx
+                >>= loadAndApplyTemplate indexTemplate archiveCtx
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                 >>= relativizeUrls
 
     -- RSS feed
-    create ["wtf/index.xml"] $ do
+    create [rssFeed] $ do
         route idRoute
         compile $
-            loadAllSnapshots "wtf/*.md" "content"
+            loadAllSnapshots sectionFiles "content"
             >>= fmap (take 10) . recentFirst
-            >>= renderRss wtfFeedConfig feedCtx
+            >>= renderRss (feedConfig $ " - Latest under " ++ name) feedCtx
 
     -- Atom feed
-    create ["wtf/atom.xml"] $ do
+    create [atomFeed] $ do
         route idRoute
         compile $
-            loadAllSnapshots "wtf/*.md" "content"
+            loadAllSnapshots sectionFiles "content"
             >>= fmap (take 10) . recentFirst
-            >>= renderAtom wtfFeedConfig feedCtx
+            >>= renderAtom (feedConfig $ " - Latest under " ++ name) feedCtx
 
 feedCtx :: Context String
 feedCtx = mconcat
@@ -106,13 +113,10 @@ feedCtx = mconcat
     , defaultContext
     ]
 
-wtfFeedConfig :: FeedConfiguration
-wtfFeedConfig = feedConfig " - Latest wtf posts"
-
 feedConfig :: String -> FeedConfiguration
 feedConfig title = FeedConfiguration
     { feedTitle       = "Mostly harmless" ++ title
-    , feedDescription = "rants and moods from Mexico"
+    , feedDescription = "rants and news from Mexico"
     , feedAuthorName  = "oz"
     , feedAuthorEmail = "oz@cyprio.net"
     , feedRoot        = "http://cyprio.net"
