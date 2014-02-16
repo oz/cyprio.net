@@ -1,4 +1,4 @@
---------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
 import Data.Monoid (mappend, mconcat)
 import Data.Functor ((<$>))
@@ -7,26 +7,11 @@ import System.Exit (ExitCode(..))
 import System.Process (system)
 import System.Environment (lookupEnv)
 
---------------------------------------------------------------------------------
 main :: IO ()
 main = hakyllWith config $ do
-    match "img/*" $ do
-        route   idRoute
-        compile copyFileCompiler
-
-    -- Copy regular files (HTML5 Boilerplate CSS, favicon, some JS...)
-    match (fromList ["favicon.ico", "robots.txt"])$ do
-        route   idRoute
-        compile copyFileCompiler
-
-    match "js/**" $ do
-        route   idRoute
-        compile copyFileCompiler
-
-    -- Compile Stylus files to CSS
-    match "css/main.styl" $ do
-        route   $ setExtension "css"
-        compile $ getResourceString >>= stylus
+    match "templates/*" $ compile templateCompiler
+    assetsRules
+    rantsRules
 
     match (fromList ["about.md", "contact.md"]) $ do
         route   $ setExtension "html"
@@ -49,11 +34,32 @@ main = hakyllWith config $ do
                 >>= loadAndApplyTemplate "templates/default.html" indexCtx
                 >>= relativizeUrls
 
-    match "templates/*" $ compile templateCompiler
+------------------------- [ Javascript, stylesheets, and other "static" files ]
 
--------------------------------------------------------------------------------
--- Bloggy thing
+assetsRules :: Rules ()
+assetsRules = do
+    match "img/*" $ do
+        route   idRoute
+        compile copyFileCompiler
 
+    match (fromList ["favicon.ico", "robots.txt"]) $ do
+        route   idRoute
+        compile copyFileCompiler
+
+    match "js/**" $ do
+        route   idRoute
+        compile copyFileCompiler
+
+    -- Compile Stylus files to CSS
+    match "css/main.styl" $ do
+        route   $ setExtension "css"
+        compile $ getResourceString >>= stylusCompiler
+
+
+-------------------------------------------------------------- [ Bloggy thing ]
+
+rantsRules :: Rules ()
+rantsRules = do
     match "templates/wtf/*" $ compile templateCompiler
 
     match "wtf/*.md" $ do
@@ -78,7 +84,7 @@ main = hakyllWith config $ do
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                 >>= relativizeUrls
 
--- RSS feed
+    -- RSS feed
     create ["wtf/index.xml"] $ do
         route idRoute
         compile $
@@ -86,7 +92,7 @@ main = hakyllWith config $ do
             >>= fmap (take 10) . recentFirst
             >>= renderRss wtfFeedConfig feedCtx
 
--- Atom feed
+    -- Atom feed
     create ["wtf/atom.xml"] $ do
         route idRoute
         compile $
@@ -94,8 +100,6 @@ main = hakyllWith config $ do
             >>= fmap (take 10) . recentFirst
             >>= renderAtom wtfFeedConfig feedCtx
 
--------------------------------------------------------------------------------
--- Feeds stuff
 feedCtx :: Context String
 feedCtx = mconcat
     [ bodyField "description"
@@ -114,20 +118,18 @@ feedConfig title = FeedConfiguration
     , feedRoot        = "http://cyprio.net"
     }
 
---------------------------------------------------------------------------------
+----------------------------------------------------- [ date format for posts ]
 postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y" `mappend`
     defaultContext
 
---------------------------------------------------------------------------------
-stylus :: Item String -> Compiler (Item String)
-stylus item = withItemBody (unixFilter "stylus" ["-I", "css"]) item
+-------------------------------------------------------------- [ CSS compiler ]
+stylusCompiler :: Item String -> Compiler (Item String)
+stylusCompiler item = withItemBody (unixFilter "stylus" ["-I", "css"]) item
                >>= return . fmap compressCss
 
-
---------------------------------------------------------------------------------
--- Customize the "deploy" command.
+------------------------------------------------------------------- [ deploys ]
 
 config :: Configuration
 config = defaultConfiguration { deploySite = doDeploy }
