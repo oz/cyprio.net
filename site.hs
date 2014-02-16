@@ -23,10 +23,6 @@ main = hakyllWith config $ do
         route   idRoute
         compile copyFileCompiler
 
-    match "css/*.css" $ do
-        route   idRoute
-        compile compressCssCompiler
-
     -- Compile Stylus files to CSS
     match "css/main.styl" $ do
         route   $ setExtension "css"
