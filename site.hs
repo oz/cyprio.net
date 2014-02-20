@@ -147,7 +147,7 @@ deployProgram :: String
 deployProgram = "rsync -av --delete -e 'ssh' _site/ "
 
 defaultDeployDest :: String
-defaultDeployDest = "oz@cyprio.net:/usr/local/www/cyprio.net/www/data"
+defaultDeployDest = "/tmp/www"
 
 -- Lookup DEST env var, to build a deploy command.
 deployCmd :: IO String
