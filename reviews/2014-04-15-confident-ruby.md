@@ -33,9 +33,9 @@ can remain as *confident* as it ought to.
 # Structure
 
 The book starts by comparing a program's flow to that of a story, and how code
-writing share *some* similarities with story writing. At the very least,
-structure and clarity will help your readers picture what you were trying
-to convey.
+writing shares *some* similarities with story writing. At the very least,
+structure and clarity will help your readers picture what you were trying to
+convey.
 
 Generally speaking, a typical function would consist of three parts:
 
@@ -45,7 +45,7 @@ Generally speaking, a typical function would consist of three parts:
 
 Hence, the book is neatly organized in three main sections, each addressing one
 of our three core operations. For each chapter, Avdi Grimm provides us with a
-collection of patterns that are easily identifiable, and will make your Ruby
+collection of patterns that are easily identifiable, and will make our Ruby
 code healthier.
 
 So no, you will not find here a hotpot of super advanced meta-programming
