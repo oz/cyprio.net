@@ -103,6 +103,20 @@ Finally, generate Diffie-Hellman parameters:
 
 This can take a some time depending on your hardware. Coffee break? :)
 
+## Using TLS-Auth
+
+TLS-Auth is a small security improvement that signs (HMAC) SSL/TLS handshake
+packets with a shared key. It does not cost much, and improves security a
+little (e.g. it allows OpenVPN to drop weird packets before they reach your
+super trusty SSL implementation).
+
+However, being a shared secret, you need to distribute the file to all your
+clients.
+
+```
+openvpn --genkey --secret $EASY/keys/ta.key
+```
+
 ## Client certificates
 
 To connect to your OpenVPN server, your clients will need to be authenticate
