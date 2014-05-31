@@ -19,10 +19,11 @@ afford to travel to Mexico.
 
 # About the author
 
-I'm a French guy, currently in the South of Mexico (the north of the country
-looks too dangerous for my taste) with my [wife][karina].  I've been employed
-as a programmer and software developer for a few years now, and I can't seem to
-stop.  I guess this grants me the *geeky* tag, I don't really care about it.
+I'm a French guy, currently living in the South of Mexico (the north of the
+country looks too dangerous for my taste) with my [wife][karina].  I've been
+employed as a programmer or software engineer for a few years now, and I can't
+seem to stop.  I guess this grants me the *geeky* tag, I don't really care
+about it.
 
 I have been working from home, and local *cafés* for a few years now.  If you
 asked, I would probably say that I'm not attached to it. But remote work
