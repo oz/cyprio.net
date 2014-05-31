@@ -13,7 +13,7 @@ elsewhere.
 # License
 
  * The haskell program `site.hs` is public domain.
- * All other contents are copyright Arnaud Berthomier.
+ * All other contents are © Arnaud Berthomier.
 
 [hakyll]: http://jaspervdj.be/hakyll/
 [stylus]: http://learnboost.github.io/stylus/
