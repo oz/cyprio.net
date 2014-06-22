@@ -10,9 +10,10 @@ so I guess this is of little interest for you guys.
 
 # Why would you use a local DNS cache?
 
-Well, if you're at home all the time, using your router's DNS you probably do
-not need to as it is doing just that for you. However, on the road, while using
-random joe's wifi, it can help speed up name resolution.
+Well, if you are at home, using your router's DNS you probably do not need to:
+because the device is already doing the caching for you, and your home network
+is probably never under a lot of load. However, on the road, while using random
+joe's wifi, it does help speed up name resolution.
 
 For example, this request is not cached, and very slow (Mexico's airport, yay),
 and took 2.981s to complete:
@@ -35,9 +36,9 @@ cyprio.net has address 91.121.147.65
 host cyprio.net  0.00s user 0.00s system 88% cpu 0.007 total
 ```
 
-Having a local DNS also allows a few tricks to blacklist domains, use your own
-TLDs, etc. Anyway, my $work laptop is a Macbook Air, and is usually running
-Apple's latest stable version, whatever that is. However, it does not come with
+Having a local DNS also allows a few tricks such as domain blacklisting, custom
+TLDs, etc. Anyway, my $work laptop is a Macbook Air, usually running Apple's
+latest stable version, whatever that is. However, it does not come with
 Unbound, but the easiest way to remedy that error is to install it with [brew]:
 
 ```
@@ -92,3 +93,4 @@ And now, back to waiting for my flight...
 [dnsmasq]: http://www.thekelleys.org.uk/dnsmasq/doc.html
 [unbound-install]: https://www.spatof.org/blog/unbound-dns-resolver-on-osx.html
 [duck]: https://duckduckgo.com/
+[brew]: http://brew.sh/
