@@ -59,8 +59,10 @@ From time to time, I can bear to use macs. So for work, I carry an 11" [Macbook
 Air][mba] which I love for its weight, size, and hardware, but hate for its
 software and stupid keyboard layout. Adobe's [Lightroom][lightroom] doesn't run
 (yet?) on Linux, so Apple is getting my money here. Steve also sold me an
-[iPhone 4S][iphone_4s] that I can't seem to replace because: it's not dead yet,
-and I don't want a bigger screen.
+[iPhone 4S][iphone_4s] that refused to die after years of mistreatments, and is
+now in the hands of my wife. I now run [SailfishOS][sailfish] on [Jolla's
+phone][jolla], because it just works and is a little less vulnerable than the
+average iOS/Android setup.
 
 [lightroom]: https://www.adobe.com/products/photoshoplightroom/
 [x220]: http://www.thinkwiki.org/wiki/Category:X220
@@ -68,6 +70,8 @@ and I don't want a bigger screen.
 [btsync]: http://www.bittorrent.com/sync
 [gitannex]: http://git-annex.branchable.com/
 [iphone_4s]: https://en.wikipedia.org/wiki/IPhone_4S
+[jolla]: https://jolla.com/
+[sailfish]: https://sailfishos.org/
 [tmux]: http://tmux.sourceforge.net/
 [debian]: http://debian.org/
 [urxvt]: http://software.schmorp.de/pkg/rxvt-unicode
@@ -75,7 +79,7 @@ and I don't want a bigger screen.
 [firefox]: https://www.mozilla.org/firefox
 [chromium]: http://www.chromium.org/
 [mba]: http://www.apple.com/macbook-air/
-[VIM]: http://vim.org/
+[VIM]: http://www.vim.org/
 [ruby]: http://ruby-lang.org/
 [node]: http://nodejs.org/
 [golang]: http://golang.org/
@@ -104,9 +108,10 @@ incredible people around the world.  Finally, shooting film rather than only
 digital is part of a collection of details and setups that make my brain
 happier.  Which is a good reason to keep using film as long as they sell it.
 
-I am not a photo geek either, but I enjoy these guys' works: Alfred Stieglitz,
-Ansel Adams, Dorothea Lange, Manuel Álvarez Bravo, Daidō Moriyama, Josef
-Koudelka, etc. Have a look!
+I am not a photo geek either, but I enjoy these guys' works: [Vivian
+Maier][vivian-maier], Alfred Stieglitz, Ansel Adams, Dorothea Lange, [Manuel
+Álvarez Bravo][alvarez-bravo], Daidō Moriyama, Josef Koudelka, etc. Have a
+look!
 
 [dlux]: https://en.wikipedia.org/wiki/Panasonic_Lumix_DMC-LX3#Leica_D-Lux_4
 [5d]: https://en.wikipedia.org/wiki/Canon_EOS_5D_Mark_II
@@ -114,6 +119,8 @@ Koudelka, etc. Have a look!
 [diana]: http://microsites.lomography.com/diana/
 [lomo]: http://microsites.lomography.com/lca+/
 [m6]: http://camerapedia.wikia.com/wiki/Leica_M6
+[vivian-maier]: http://www.vivianmaier.com/
+[alvarez-bravo]: http://www.manuelalvarezbravo.org/
 
 # Still reading?
 
