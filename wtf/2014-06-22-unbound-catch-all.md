@@ -58,18 +58,8 @@ you run locally?
 
 After searching 5 minutes with the [Duck], and the Google, I could not find a
 clear method to configure Unbound for this job. It is really simple though. All
-you have to do is add a stub zone for a custom TLD, for example "dev":
-
-```
-stub-zone:
-    name: "dev"
-    stub-addr: 127.0.0.1
-```
-
-Unbound will then try to resolve ".dev" domains using the DNS server
-running on localhost. Hence, you also need to add a catch-all local zone
-matching the "dev" domain, that will always resolve to the loop-back
-address:
+you have to do is add a local zone for a custom TLD, for example "dev", and
+configure it to always resolve to the loop-back address[^1]:
 
 ```
 server:
@@ -88,6 +78,9 @@ blabla.dev has address 127.0.0.1
 ```
 
 And now, back to waiting for my flight...
+
+[^1]: Thanks to Jonny Barnes for the update. I originally thought you also
+needed to add a `stub-zone`... but no. :)
 
 [Unbound]: https://unbound.net/
 [dnsmasq]: http://www.thekelleys.org.uk/dnsmasq/doc.html
