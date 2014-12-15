@@ -130,7 +130,7 @@ postCtx =
 
 -------------------------------------------------------------- [ CSS compiler ]
 stylusCompiler :: Item String -> Compiler (Item String)
-stylusCompiler item = withItemBody (unixFilter "stylus" ["-I", "css"]) item
+stylusCompiler item = withItemBody (unixFilter "./node_modules/stylus/bin/stylus" ["-I", "css"]) item
                >>= return . fmap compressCss
 
 ------------------------------------------------------------------- [ deploys ]
