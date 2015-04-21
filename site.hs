@@ -51,6 +51,10 @@ assetsRules = do
         route   idRoute
         compile copyFileCompiler
 
+    match "fonts/**" $ do
+        route   idRoute
+        compile copyFileCompiler
+
     -- Compile Stylus files to CSS
     match "css/main.styl" $ do
         route   $ setExtension "css"
