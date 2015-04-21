@@ -120,7 +120,7 @@ feedCtx = mconcat
 feedConfig :: String -> FeedConfiguration
 feedConfig title = FeedConfiguration
     { feedTitle       = "Mostly harmless" ++ title
-    , feedDescription = "rants and news from Mexico"
+    , feedDescription = "rants and news from the fringe"
     , feedAuthorName  = "oz"
     , feedAuthorEmail = "oz@cyprio.net"
     , feedRoot        = "http://cyprio.net"
