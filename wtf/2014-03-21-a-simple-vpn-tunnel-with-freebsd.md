@@ -226,7 +226,7 @@ dev tun
 remote $SERVER_IP 1194
 client
 tls-client
-tls-remote server
+verify-x509-name server name
 ns-cert-type server
 tls-auth ta.key 1
 ca ca.crt
