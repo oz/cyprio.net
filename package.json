@@ -1,0 +1,16 @@
+{
+  "name": "cyprio",
+  "version": "1.0.0",
+  "description": "This is the source for http://cyprio.net",
+  "main": "index.js",
+  "dependencies": {
+    "stylus": "^0.52.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "gogs@git.cypr.io:oz/cyprio.net.git"
+  },
+  "author": "oz@cypr.io",
+  "license": "ISC"
+}
