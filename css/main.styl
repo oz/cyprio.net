@@ -1,23 +1,9 @@
+@charset "UTF-8"
 @import "vendor/normalize"
 
+@import "fonts"
 @import "colors"
 @import "transitions"
-
-@font-face
-  font-family Cardo
-  font-style normal
-  src url(/fonts/cardo/Cardo-Regular.ttf)
-
-@font-face
-  font-family "Open Sans"
-  font-style normal
-  src url(/fonts/opensans/OpenSans-Regular.ttf)
-
-// Font used for text blocks
-text-font()
-  font-family Cardo, serif
-  font-size 1.2em
-  line-height 1.5em
 
 // Rounded corners things
 border-radius()
@@ -43,13 +29,14 @@ a:hover
 
 .date
   color $articleHeaderColor
-  font-family Cardo, serif
+  font-family "et-bembo", serif
   font-size 0.7em
 
 h1, h2, h3
-  font-family "Open Sans", sans-serif
+  font-family "et-bembo", serif
   color $titlesColor
   text-shadow 0 1px 4px #000
+  font-style italic
 
 h1
   font-size 1.3em
