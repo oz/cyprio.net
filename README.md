@@ -38,7 +38,9 @@ DEST=server.com:/srv/blog/www ./site deploy
 
 # License
 
- * The haskell program `site.hs` is public domain.
+ * The haskell program `site.hs`, templates, stylesheets and javascript files
+   are published in the public domain, without any warranty that they can be of
+   any (good) use at all. Use at your own risk!
  * All other contents are © Arnaud Berthomier.
 
 [hakyll]: http://jaspervdj.be/hakyll/
