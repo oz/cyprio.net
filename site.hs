@@ -6,6 +6,7 @@ import Hakyll
 import System.Exit (ExitCode(..))
 import System.Process (system)
 import System.Environment (lookupEnv)
+import Control.Monad (liftM)
 
 main :: IO ()
 main = hakyllWith config $ do
@@ -134,8 +135,9 @@ postCtx =
 
 -------------------------------------------------------------- [ CSS compiler ]
 stylusCompiler :: Item String -> Compiler (Item String)
-stylusCompiler item = withItemBody (unixFilter "./node_modules/stylus/bin/stylus" ["-I", "css"]) item
-               >>= return . fmap compressCss
+stylusCompiler item = liftM
+  (fmap compressCss)
+  $ withItemBody (unixFilter "./node_modules/stylus/bin/stylus" ["-I", "css"]) item
 
 ------------------------------------------------------------------- [ deploys ]
 
