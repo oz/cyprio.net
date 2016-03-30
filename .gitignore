@@ -4,3 +4,6 @@
 /site.hi
 /.sass-cache
 /node_modules
+/.cabal-sandbox
+/dist
+cabal.sandbox.config
