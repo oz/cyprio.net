@@ -1,5 +1,5 @@
 ---
-title: moving disks
+title: "moving disks"
 ---
 
 Since I'm leaving France for a "little trip" to Mexico, I thought I'd sell my

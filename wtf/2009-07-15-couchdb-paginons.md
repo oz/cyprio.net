@@ -1,5 +1,5 @@
 ---
-title: CouchDB, paginons.
+title: "CouchDB, paginons."
 ---
 
 On va dire que c'est un POC, et que "chez moi ça marche", mais avec un peu de

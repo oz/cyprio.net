@@ -1,5 +1,5 @@
 ---
-title: Back to a civilized time zone
+title: "Back to a civilized time zone"
 ---
 
 I'm finally back to a more civilized timezone! ... and enjoying the fine

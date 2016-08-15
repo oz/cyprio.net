@@ -1,5 +1,5 @@
 ---
-title: Where do you work?
+title: "Where do you work?"
 ---
 
 I really like this [philisophy page](http://gun.io/philosophy/) at gun.io.

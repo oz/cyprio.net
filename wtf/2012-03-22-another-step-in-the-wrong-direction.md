@@ -1,5 +1,5 @@
 ---
-title: Another step in the wrong direction
+title: "Another step in the wrong direction"
 ---
 
 > From now on, any person who habitually consults websites that advocate

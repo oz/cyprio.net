@@ -1,5 +1,5 @@
 ---
-title: Ghostrank logs every visited URL in clear
+title: "Ghostrank logs every visited URL in clear"
 ---
 
 While debugging a rather strange encoding problem on

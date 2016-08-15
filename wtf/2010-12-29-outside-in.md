@@ -1,5 +1,5 @@
 ---
-title: outside in
+title: "outside in"
 ---
 
 What's up? Well, on my side of this blog not much. 2010 is finally dying, and

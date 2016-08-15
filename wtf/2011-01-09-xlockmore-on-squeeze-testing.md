@@ -1,5 +1,5 @@
 ---
-title: xlockmore on squeeze / testing
+title: "xlockmore on squeeze / testing"
 ---
 
 (Sorry, writing it down is the best way I know to remember it.)

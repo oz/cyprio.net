@@ -1,5 +1,5 @@
 ---
-title: Hadopi... ou Wendy ?
+title: "Hadopi... ou Wendy ?"
 ---
 
 Si vous aussi vous êtes experts en Hadopi, Clubic vous tend les bras.  

@@ -1,5 +1,5 @@
 ---
-title: How to disappear
+title: "How to disappear"
 ---
 
 _why and later Pilgrim committed the first infosuicides of our information

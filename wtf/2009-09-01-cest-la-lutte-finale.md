@@ -1,5 +1,5 @@
 ---
-title: C'est la lutte finale
+title: "C'est la lutte finale"
 ---
 
 Petit (moyen, gros?) bar-concert dans le XIème,

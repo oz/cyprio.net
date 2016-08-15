@@ -1,5 +1,5 @@
 ---
-title: Amon Tobin
+title: "Amon Tobin"
 ---
 
 Hier soir, malgré le ciel [un brin menaçant](http://twitpic.com/a8i97), on

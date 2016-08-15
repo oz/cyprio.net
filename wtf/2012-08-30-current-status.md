@@ -1,5 +1,5 @@
 ---
-title: Current status
+title: "Current status"
 ---
 
 Importing last 6 years of photos into Lightroom...

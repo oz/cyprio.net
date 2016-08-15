@@ -1,5 +1,5 @@
 ---
-title: How not to lose 15 minutes
+title: "How not to lose 15 minutes"
 ---
 
 Another geeky one? Although it's light, this post deals with Apache, and PHP,

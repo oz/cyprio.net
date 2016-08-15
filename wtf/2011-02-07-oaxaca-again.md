@@ -1,5 +1,5 @@
 ---
-title: Oaxaca again?
+title: "Oaxaca again?"
 ---
 
 [Oaxaca, Oaxaca](http://oaxaca.cyprio.net/) has landed. It's a small

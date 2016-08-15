@@ -1,5 +1,5 @@
 ---
-title: vim sunshine
+title: "vim sunshine"
 ---
 
 Je travaillais ce matin dans le train, et avec la luminosité ambiante, le

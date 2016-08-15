@@ -1,5 +1,5 @@
 ---
-title: When it's good
+title: "When it's good"
 ---
 
 Received today an order for a bunch of Kodak Ektar, and TX films (I can't find

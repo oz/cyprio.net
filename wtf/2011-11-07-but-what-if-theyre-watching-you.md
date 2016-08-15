@@ -1,5 +1,5 @@
 ---
-title: but what if they're watching you?
+title: "but what if they're watching you?"
 ---
 
 I'm wondering who will have total control over my next phone: Apple or Google?

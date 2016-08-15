@@ -1,5 +1,5 @@
 ---
-title: The Duckworth Lewis Method
+title: "The Duckworth Lewis Method"
 ---
 
 [The Duckworth Lewis method](http://www.dlmethod.com/) c'est un groupe plein

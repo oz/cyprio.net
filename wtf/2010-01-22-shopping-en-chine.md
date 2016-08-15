@@ -1,5 +1,5 @@
 ---
-title: New world order, shopping en chine
+title: "New world order, shopping en chine"
 ---
 
 > La manufacture est située aux environs de

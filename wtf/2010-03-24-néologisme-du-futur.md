@@ -1,5 +1,5 @@
 ---
-title: Néologisme du futur
+title: "Néologisme du futur"
 ---
 
 [Providure](http://www.demaincestbienaussi.com/ilslontfait): Tout ce qui reste

@@ -1,5 +1,5 @@
 ---
-title: Deux geeks, du tissu, une agrafeuse...
+title: "Deux geeks, du tissu, une agrafeuse..."
 ---
 
 <s>Mc Gyver?</s> La semaine prochaine, on refait la déco' chez vous. Parce que

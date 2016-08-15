@@ -1,5 +1,5 @@
 ---
-title: Working remotely
+title: "Working remotely"
 ---
 
 A few links, and rants for remote workers, and telecommuters. In spite of

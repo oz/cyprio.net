@@ -1,5 +1,5 @@
 ---
-title: Wanna play?
+title: "Wanna play?"
 ---
 
 The latest [Humble Bundle](http://humblebundle.com) includes [Hotline

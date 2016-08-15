@@ -1,5 +1,5 @@
 ---
-title: Being cold, in France.
+title: "Being cold, in France."
 ---
 
 I did it! A month without a post, weee! Well. Let's complain.

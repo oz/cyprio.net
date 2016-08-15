@@ -1,5 +1,5 @@
 ---
-title: concert à emporter : yo la tengo
+title: "concert à emporter : yo la tengo"
 ---
 
 Avec quelques jours de retard, reblog (ça se dit reblog hein? c'est comme

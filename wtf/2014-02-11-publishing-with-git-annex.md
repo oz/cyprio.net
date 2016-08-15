@@ -1,5 +1,5 @@
 ---
-title: Publishing with git-annex
+title: "Publishing with git-annex"
 ---
 
 I've been using [git-annex][] and boring people with it for quite a while now.

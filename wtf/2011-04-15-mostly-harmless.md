@@ -1,5 +1,5 @@
 ---
-title: Mostly Harmless
+title: "Mostly Harmless"
 ---
 
 I decided I should try to post a few things more geek-oriented on a "tech"

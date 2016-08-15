@@ -1,5 +1,5 @@
 ---
-title: This is why we're doomed
+title: "This is why we're doomed"
 ---
 
 Sur un air de [this is why you're fat](http://thisiswhyyourefat.com/), ce

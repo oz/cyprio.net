@@ -1,5 +1,5 @@
 ---
-title: Caffeine cat
+title: "Caffeine cat"
 ---
 
 Current status:

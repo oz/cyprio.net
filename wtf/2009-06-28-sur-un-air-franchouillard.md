@@ -1,5 +1,5 @@
 ---
-title: Sur un air franchouillard
+title: "Sur un air franchouillard"
 ---
 
 Ce week-end, je suis parti en Auvergne, où j'ai pu profiter du soleil, du

@@ -1,5 +1,5 @@
 ---
-title: Hadopi + Sarkozy = &lt;3
+title: "Hadopi + Sarkozy = &lt;3"
 ---
 
 Maintenant j'avoue, j'ai un peu [peur de revenir en

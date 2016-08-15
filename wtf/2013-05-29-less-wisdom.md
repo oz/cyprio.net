@@ -1,5 +1,5 @@
 ---
-title: Less wisdom
+title: "Less wisdom"
 ---
 
 One wisdom tooth less. Bonus points for the stitch since the bitch had what's

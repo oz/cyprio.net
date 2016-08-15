@@ -1,5 +1,5 @@
 ---
-title: les rites du dimanche...
+title: "les rites du dimanche..."
 ---
 
 Est-ce que c'est de ma faute si j'adore les dimanches après-midi occupés à

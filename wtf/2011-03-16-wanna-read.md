@@ -1,5 +1,5 @@
 ---
-title: wanna read?
+title: "wanna read?"
 ---
 
 A lot of tools exist to _read news_. From mail readers, RSS readers, various

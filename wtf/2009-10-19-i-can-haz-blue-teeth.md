@@ -1,5 +1,5 @@
 ---
-title: I can haz blue teeth?
+title: "I can haz blue teeth?"
 ---
 
 Passé le week-end en Auvergne, ce qui m'a permis de constater qu'il y fait

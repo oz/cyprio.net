@@ -1,5 +1,5 @@
 ---
-title: Moving again.
+title: "Moving again."
 ---
 
 Ok, new house rented... Hamac setup. Waiting for the internet, again: since

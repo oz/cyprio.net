@@ -1,5 +1,5 @@
 ---
-title: 307 Temporary redirect
+title: "307 Temporary redirect"
 ---
 
 Bon, en fait j'ai encore du net... grâce à un réseau FreeWifi qui traîne par

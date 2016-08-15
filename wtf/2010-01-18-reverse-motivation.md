@@ -1,5 +1,5 @@
 ---
-title: reverse &quot;motivation&quot;
+title: "reverse &quot;motivation&quot;"
 ---
 
 J'allais écrire quelques lignes sur la _motivation en entreprise_, et puis en

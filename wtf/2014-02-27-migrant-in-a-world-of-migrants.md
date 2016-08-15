@@ -1,5 +1,5 @@
 ---
-title: Migrant in a world of migrants
+title: "Migrant in a world of migrants"
 ---
 
 ![La Courneuve](http://static.cyprio.net/wtf/sebastiao%20salgado%20-%20la%20courneuve.jpg)

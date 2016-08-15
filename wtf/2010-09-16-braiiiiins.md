@@ -1,5 +1,5 @@
 ---
-title: Braiiiiins
+title: "Braiiiiins"
 ---
 
 We've been here and there, ate at the Bagdad café, found a bar in the desert

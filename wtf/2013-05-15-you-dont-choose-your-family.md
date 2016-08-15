@@ -1,5 +1,5 @@
 ---
-title: You don't choose your family
+title: "You don't choose your family"
 ---
 
 I've been visited by more friends than family in Mexico. It's not a surprise –

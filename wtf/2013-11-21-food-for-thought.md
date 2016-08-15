@@ -1,5 +1,5 @@
 ---
-title: Food for thought
+title: "Food for thought"
 ---
 
 > In this respect, social media have perhaps been responsible for generating a

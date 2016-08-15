@@ -1,5 +1,5 @@
 ---
-title: A simple VPN tunnel with FreeBSD
+title: "A simple VPN tunnel with FreeBSD"
 ---
 
 I live in Mexico, but work for a [french tech company][af83].  As I spend most

@@ -1,5 +1,5 @@
 ---
-title: Feeling old?
+title: "Feeling old?"
 ---
 
 Opening the ham inbox this morning, I'm met with a Flickr-mail...

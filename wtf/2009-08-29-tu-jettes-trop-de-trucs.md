@@ -1,5 +1,5 @@
 ---
-title: Tu jettes trop d'trucs !
+title: "Tu jettes trop d'trucs !"
 ---
 
 J'ai entendu plusieurs fois, que je jetais trop, que je ne gardais pas de

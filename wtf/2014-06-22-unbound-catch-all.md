@@ -1,5 +1,5 @@
 ---
-title: Unbound catch-alls
+title: "Unbound catch-alls"
 ---
 
 I have been using [Unbound][] as a local DNS cache for a little while

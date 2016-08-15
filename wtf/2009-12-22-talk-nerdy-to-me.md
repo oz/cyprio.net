@@ -1,5 +1,5 @@
 ---
-title: talk nerdy to me
+title: "talk nerdy to me"
 ---
 
 > “These objects are not inherently masculine or geeky; they've been

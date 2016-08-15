@@ -1,5 +1,5 @@
 ---
-title: Poor pickup lines
+title: "Poor pickup lines"
 ---
 
 I can guarantee that these jokes have zero chance of making people laugh in

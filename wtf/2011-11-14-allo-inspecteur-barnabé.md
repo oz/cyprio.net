@@ -1,5 +1,5 @@
 ---
-title: Allo, inspecteur Barnabé?
+title: "Allo, inspecteur Barnabé?"
 ---
 
 Earlier this morning a woman called on my cellphone in Oaxaca. She was

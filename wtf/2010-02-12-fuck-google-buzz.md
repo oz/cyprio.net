@@ -1,5 +1,5 @@
 ---
-title: Fuck Google Buzz
+title: "Fuck Google Buzz"
 ---
 
 J'adore me connecter sur Gmail, et avoir le choix entre essayer le nouveau

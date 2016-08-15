@@ -1,5 +1,5 @@
 ---
-title: On twitter slowly locking down its API
+title: "On twitter slowly locking down its API"
 ---
 
 Twitter must have a lot of bored managers/directors sitting at their [bad

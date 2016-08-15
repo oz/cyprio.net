@@ -1,5 +1,5 @@
 ---
-title: Stupid Gmail
+title: "Stupid Gmail"
 ---
 
 Just had one of those weird flashback moments, while GMail tried to helpfully

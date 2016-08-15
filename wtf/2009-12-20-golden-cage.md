@@ -1,5 +1,5 @@
 ---
-title: Golden cage
+title: "Golden cage"
 ---
 
 Le soucis du blog, c'est que rapidement, ça devient une lettre ouverte, et je

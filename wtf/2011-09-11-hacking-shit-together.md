@@ -1,5 +1,5 @@
 ---
-title: Hacking shit together
+title: "Hacking shit together"
 ---
 
 A few weeks ago, we got an Arduino board connected to the front door of the

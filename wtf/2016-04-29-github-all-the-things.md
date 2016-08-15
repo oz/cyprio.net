@@ -1,5 +1,5 @@
 ---
-title: Github all the things
+title: "Github all the things"
 ---
 
 > GitHub isn't just your resume, it's your life. Without a profile bursting

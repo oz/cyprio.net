@@ -1,5 +1,5 @@
 ---
-title: C'est toi le scotch
+title: "C'est toi le scotch"
 ---
 
 Il faut que j'arrête de scotcher au bureau la moitié de la nuit. Cela-dit, je

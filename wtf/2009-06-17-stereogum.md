@@ -1,5 +1,5 @@
 ---
-title: Stereogum
+title: "Stereogum"
 ---
 
 J'hésite un peu entre me faire un bout de code qui posterait ici bas ce que je

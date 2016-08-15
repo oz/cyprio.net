@@ -1,5 +1,5 @@
 ---
-title: RFID, the ghost in the field
+title: "RFID, the ghost in the field"
 ---
 
 [Intéressante vidéo](http://www.nearfield.org/2009/10/immaterials-the-ghost-

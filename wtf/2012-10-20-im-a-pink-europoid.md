@@ -1,5 +1,5 @@
 ---
-title: I'm a pink europoid
+title: "I'm a pink europoid"
 ---
 
 I was filling immigration papers in Mexico, when I was asked for my "race". I

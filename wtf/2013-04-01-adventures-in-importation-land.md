@@ -1,5 +1,5 @@
 ---
-title: Adventures in importation land
+title: "Adventures in importation land"
 ---
 
 I'm learning the hard way that buying a Leica lens from a foreign country can

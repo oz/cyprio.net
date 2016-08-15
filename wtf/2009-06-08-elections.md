@@ -1,5 +1,5 @@
 ---
-title: Elections...
+title: "Elections..."
 ---
 
 Quand on découvre une carte toute bleue sur la France, ça fait plaisir de

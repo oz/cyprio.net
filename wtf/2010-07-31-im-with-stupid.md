@@ -1,5 +1,5 @@
 ---
-title: I'm with stupid
+title: "I'm with stupid"
 ---
 
 Note for later : you **do not** run `freebsd-update install` through `ssh`

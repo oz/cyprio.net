@@ -1,5 +1,5 @@
 ---
-title: La route du rock - édition 2009
+title: "La route du rock - édition 2009"
 ---
 
 Chaud, plein de soleil, de plages, et de la musique rock à s'en faire péter

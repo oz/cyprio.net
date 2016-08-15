@@ -1,5 +1,5 @@
 ---
-title: Meanwhile in Mexico...
+title: "Meanwhile in Mexico..."
 ---
 
 ![](http://static.cyprio.net/wtf/./weather-oaxaca.png)

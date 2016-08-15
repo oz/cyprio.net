@@ -1,5 +1,5 @@
 ---
-title: Introverti
+title: "Introverti"
 ---
 
 Not so long ago, I read about introverts on Hacker News, and how for X

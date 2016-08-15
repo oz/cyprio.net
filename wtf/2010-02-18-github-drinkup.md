@@ -1,5 +1,5 @@
 ---
-title: github drinkup
+title: "github drinkup"
 ---
 
 Hier soir, j'ai passé la soirée en compagnie de jeunes geeks barbus, dans un

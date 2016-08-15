@@ -1,5 +1,5 @@
 ---
-title: The pastels + Tenniscoat
+title: "The pastels + Tenniscoat"
 ---
 
 Je sais pas vous, mais moi j'ai passé une

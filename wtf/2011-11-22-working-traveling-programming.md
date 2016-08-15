@@ -1,5 +1,5 @@
 ---
-title: working, traveling, programming
+title: "working, traveling, programming"
 ---
 
 Working, traveling, programming. Seems like [time well

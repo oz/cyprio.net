@@ -1,5 +1,5 @@
 ---
-title: kill all humans
+title: "kill all humans"
 ---
 
 What's so great about the nuclear threats in Japan, is that apparently, one

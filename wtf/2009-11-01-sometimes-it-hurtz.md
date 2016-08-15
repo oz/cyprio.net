@@ -1,5 +1,5 @@
 ---
-title: Sometimes it hurtz
+title: "Sometimes it hurtz"
 ---
 
 Je ne sais pas comment vous écrivez... et je ne sais pas vraiment écrire non

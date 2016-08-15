@@ -1,5 +1,5 @@
 ---
-title: mauvais, mais peu faire pire
+title: "mauvais, mais peu faire pire"
 ---
 
 Hier soir, il y avait en même temps l'élection de miss France, **et** le

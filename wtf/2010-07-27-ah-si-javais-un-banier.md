@@ -1,5 +1,5 @@
 ---
-title: Ah si j'avais un Banier...
+title: "Ah si j'avais un Banier..."
 ---
 
 > (...)Stéphane Guillon ou Didier Porte, lequel rejoindra Mediapart à la

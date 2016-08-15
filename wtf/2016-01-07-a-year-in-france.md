@@ -1,5 +1,5 @@
 ---
-title: A year in France
+title: "A year in France"
 ---
 
 It's not easy to summarize in a few words, how I feel about our latest months in

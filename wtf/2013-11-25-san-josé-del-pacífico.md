@@ -1,5 +1,5 @@
 ---
-title: San José del Pacífico
+title: "San José del Pacífico"
 ---
 
 ![view of San José del

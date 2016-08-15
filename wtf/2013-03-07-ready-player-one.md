@@ -1,5 +1,5 @@
 ---
-title: Ready Player One
+title: "Ready Player One"
 ---
 
 I really try not to bore the world with the few books I read. However,

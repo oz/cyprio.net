@@ -1,5 +1,5 @@
 ---
-title: Chaque chose a sa place
+title: "Chaque chose a sa place"
 ---
 
 “I’m worried that students will take their obedient place in society and look

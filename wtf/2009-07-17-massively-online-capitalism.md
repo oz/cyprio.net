@@ -1,5 +1,5 @@
 ---
-title: massively online capitalism
+title: "massively online capitalism"
 ---
 
 Enfin mon calvaire est fini ! J'ai reçu ma nouvelle carte de crédit, après

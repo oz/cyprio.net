@@ -1,5 +1,5 @@
 ---
-title: On being dumb
+title: "On being dumb"
 ---
 
 > (...) being exposed to too much complaining can actually make you dumb.

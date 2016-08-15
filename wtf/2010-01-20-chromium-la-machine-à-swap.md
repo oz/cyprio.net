@@ -1,5 +1,5 @@
 ---
-title: chromium, la machine à swap
+title: "chromium, la machine à swap"
 ---
 
 [Chromium](http://www.chromium.org/) m'emmerde. Il ne crashe pas, du coup je

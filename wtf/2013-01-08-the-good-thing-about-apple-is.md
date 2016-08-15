@@ -1,5 +1,5 @@
 ---
-title: The good thing about Debian is...
+title: "The good thing about Debian is..."
 ---
 
 I really like my (now old) iPhone 4s. It's about the right size for human

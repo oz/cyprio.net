@@ -1,5 +1,5 @@
 ---
-title: Dans quel état j'ère
+title: "Dans quel état j'ère"
 ---
 
 Lu sur IRC... so i am now sitting at home, in my underwear, watching sci-fi,

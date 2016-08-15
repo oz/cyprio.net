@@ -1,5 +1,5 @@
 ---
-title: I'm not dead, yet.
+title: "I'm not dead, yet."
 ---
 
 The advantages to being in Mexico are quite many, and I won't bother counting,

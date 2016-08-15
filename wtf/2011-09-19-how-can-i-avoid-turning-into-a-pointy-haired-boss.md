@@ -1,5 +1,5 @@
 ---
-title: How can I avoid turning into a pointy-haired boss?
+title: "How can I avoid turning into a pointy-haired boss?"
 ---
 
 > The pointy-haired boss is a manager who doesn't program. So the surest way

@@ -1,5 +1,5 @@
 ---
-title: fat princess
+title: "fat princess"
 ---
 
 > Some feminist groups criticized the game's premise, accusing it of promoting

@@ -1,5 +1,5 @@
 ---
-title: Partage de musique avec iTunes
+title: "Partage de musique avec iTunes"
 ---
 
 Les utilisateurs d'iTunes savent qu'il est facile d'exporter sa musique

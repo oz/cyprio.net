@@ -1,5 +1,5 @@
 ---
-title: Eighties
+title: "Eighties"
 ---
 
 La pile des livres à lire grossit, celle des films prend la même voie, et on

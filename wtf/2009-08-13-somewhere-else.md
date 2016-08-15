@@ -1,5 +1,5 @@
 ---
-title: Somewhere else
+title: "Somewhere else"
 ---
 
 Le week-end commence vendredi soir, dans un train direction Rennes. En mission

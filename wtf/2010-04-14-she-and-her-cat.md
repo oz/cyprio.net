@@ -1,5 +1,5 @@
 ---
-title: She and her cat 
+title: "She and her cat "
 ---
 
 À force de farfouiller à droite à gauche, de perdre mon temps, mes clics et

@@ -1,5 +1,5 @@
 ---
-title: fat, salt, and sugar
+title: "fat, salt, and sugar"
 ---
 
 J'ai bien envie de junk-food tout d'un coup. C'est signe que je suis

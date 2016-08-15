@@ -1,5 +1,5 @@
 ---
-title: Sondre Lerche
+title: "Sondre Lerche"
 ---
 
 [Lui](http://www.sondrelerche.com/) je l'aime bien. Ouais c'est un peu maigre,

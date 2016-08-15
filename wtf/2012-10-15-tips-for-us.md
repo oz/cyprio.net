@@ -1,5 +1,5 @@
 ---
-title: Quick programmer tips
+title: "Quick programmer tips"
 ---
 
 > Refactoring poor designs. It's good to accumulate technical debt since it's

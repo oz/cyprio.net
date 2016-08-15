@@ -1,5 +1,5 @@
 ---
-title: Leica manuals
+title: "Leica manuals"
 ---
 
 Checking a rather old Leica manual for the M6 (emphasis mine).

@@ -1,5 +1,5 @@
 ---
-title: Oui mais on peut rêver
+title: "Oui mais on peut rêver"
 ---
 
 Samedi rigolo fait d'aprèm pétanque et de barbecues ratés ; de safaris en bord

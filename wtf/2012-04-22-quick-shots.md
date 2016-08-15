@@ -1,5 +1,5 @@
 ---
-title: Quick shots
+title: "Quick shots"
 ---
 
 A few months ago, I got an iPhone, and I've been playing with

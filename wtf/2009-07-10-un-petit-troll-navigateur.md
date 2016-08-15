@@ -1,5 +1,5 @@
 ---
-title: Un petit troll navigateur pour la route ?
+title: "Un petit troll navigateur pour la route ?"
 ---
 
 Sortons un instant du débat sur Google et la vie privée. J'ai le droit de

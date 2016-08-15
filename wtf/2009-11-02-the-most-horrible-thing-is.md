@@ -1,5 +1,5 @@
 ---
-title: the most horrible thing is...
+title: "the most horrible thing is..."
 ---
 
 [Le jeu de la matinée](http://themosthorriblething.com/)...

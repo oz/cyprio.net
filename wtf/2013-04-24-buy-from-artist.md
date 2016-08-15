@@ -1,5 +1,5 @@
 ---
-title: Artist shop
+title: "Artist shop"
 ---
 
 As seen on Last.fm...

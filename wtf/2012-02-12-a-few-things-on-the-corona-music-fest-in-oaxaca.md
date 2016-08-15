@@ -1,5 +1,5 @@
 ---
-title: A few things on the Corona music fest in Oaxaca
+title: "A few things on the Corona music fest in Oaxaca"
 ---
 
 This week-end I was at a beer-sponsored concert in Oaxaca with big names like

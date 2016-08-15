@@ -1,5 +1,5 @@
 ---
-title: Hipster not
+title: "Hipster not"
 ---
 
 Chromium has become half of my day-job environment. It has the nicest debugger

@@ -1,5 +1,5 @@
 ---
-title: Veni, Vidi, Lundi
+title: "Veni, Vidi, Lundi"
 ---
 
 Après un samedi au bureau sur du code (alternant entre recette et debug pour

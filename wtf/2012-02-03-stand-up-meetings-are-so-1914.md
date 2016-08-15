@@ -1,5 +1,5 @@
 ---
-title: Stand-up meetings are so 1914
+title: "Stand-up meetings are so 1914"
 ---
 
 > Holding meetings standing up isn't new. Some military leaders did it during

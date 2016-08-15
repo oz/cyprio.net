@@ -1,5 +1,5 @@
 ---
-title: qui sème la flemme récolte du perl
+title: "qui sème la flemme récolte du perl"
 ---
 
 C'est tout bête, mais bien pratique parfois... qui me dit ce que fait ce petit

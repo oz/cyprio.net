@@ -1,5 +1,5 @@
 ---
-title: hello bloggy
+title: "hello bloggy"
 ---
 
 It's that time of the year again where I'm reminded by some good fellas that

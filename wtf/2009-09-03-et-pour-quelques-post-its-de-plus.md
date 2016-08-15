@@ -1,5 +1,5 @@
 ---
-title: Et pour quelques post-its de plus
+title: "Et pour quelques post-its de plus"
 ---
 
 Planqué dans [mes bookmarks sur yoolink](http://yoolink.fr/people/oz), j'avais

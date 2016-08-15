@@ -1,5 +1,5 @@
 ---
-title: wikileaks
+title: "wikileaks"
 ---
 
 My generation was born with the Internet, we've been online before they even

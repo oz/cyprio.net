@@ -1,5 +1,5 @@
 ---
-title: The Californian Ideology
+title: "The Californian Ideology"
 ---
 
 This one, my dear reader, may apply to you:

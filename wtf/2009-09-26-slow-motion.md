@@ -1,5 +1,5 @@
 ---
-title: slow motion
+title: "slow motion"
 ---
 
 Entre passer une semaine loin de (presque) tout à Alès, déménager dans de

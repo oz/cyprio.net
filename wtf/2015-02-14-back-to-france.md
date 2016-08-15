@@ -1,5 +1,5 @@
 ---
-title: Back to France
+title: "Back to France"
 ---
 
 A few weeks ago, we packed most of our stuff in Oaxaca, and sold the

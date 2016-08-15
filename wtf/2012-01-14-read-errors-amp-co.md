@@ -1,5 +1,5 @@
 ---
-title: read errors &amp; co
+title: "read errors &amp; co"
 ---
 
 The box hosting this website is showing signs of weakness. While I've had a

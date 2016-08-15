@@ -1,5 +1,5 @@
 ---
-title: CouchDB + Lucene + Ruby + tout le reste
+title: "CouchDB + Lucene + Ruby + tout le reste"
 ---
 
 ![couchrest_rails.png](http://static.cyprio.net/wtf/media/couchrest_rails.png)

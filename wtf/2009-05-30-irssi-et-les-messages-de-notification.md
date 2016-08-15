@@ -1,5 +1,5 @@
 ---
-title: Irssi et les messages de notification...
+title: "Irssi et les messages de notification..."
 ---
 
 J'utilise irssi pour presque tous les jours, pour tous mes besoins de

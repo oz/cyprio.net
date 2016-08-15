@@ -1,5 +1,5 @@
 ---
-title: Using newsbeuter with tmux and w3m to read news
+title: "Using newsbeuter with tmux and w3m to read news"
 ---
 
 I consume most news through RSS feeds. If you don't, this post is probably of

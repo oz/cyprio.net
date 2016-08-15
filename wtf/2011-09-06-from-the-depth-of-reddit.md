@@ -1,5 +1,5 @@
 ---
-title: From the depth of reddit...
+title: "From the depth of reddit..."
 ---
 
 [Lovely](http://www.reddit.com/r/reddit.com/comments/k3zrz/by_request_from_the

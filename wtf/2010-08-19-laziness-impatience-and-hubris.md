@@ -1,5 +1,5 @@
 ---
-title: Laziness, impatience, and hubris
+title: "Laziness, impatience, and hubris"
 ---
 
 Those are the free “virtues” of the programmer according to a well known book

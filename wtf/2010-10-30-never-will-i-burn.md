@@ -1,5 +1,5 @@
 ---
-title: Never will I burn?
+title: "Never will I burn?"
 ---
 
 This reminds me of a rather recent conversation I had with a co-worker at

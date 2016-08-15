@@ -1,5 +1,5 @@
 ---
-title: are you getting one?
+title: "are you getting one?"
 ---
 
 > This is the key to the iPad that nobody has figured out. The iPad does

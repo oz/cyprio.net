@@ -1,5 +1,5 @@
 ---
-title: Bruce Sterling's island
+title: "Bruce Sterling's island"
 ---
 
 > (...) I can dream up some radical guerrilla alternative where I'm a complete

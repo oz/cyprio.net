@@ -1,5 +1,5 @@
 ---
-title: Wifi blues
+title: "Wifi blues"
 ---
 
 Yesterday, with the guidance of my dear friend [jer0me][jer0me], I unscrewed

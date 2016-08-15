@@ -1,5 +1,5 @@
 ---
-title: A few things I like in Mexico
+title: "A few things I like in Mexico"
 ---
 
 I thought I'd try to post a series of posts on a few things that make me like

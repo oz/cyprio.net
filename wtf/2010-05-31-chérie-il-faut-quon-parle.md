@@ -1,5 +1,5 @@
 ---
-title: Chérie? Il faut qu'on parle...
+title: "Chérie? Il faut qu'on parle..."
 ---
 
 [C'est pas faux](http://geekandpoke.typepad.com/geekandpoke/2010/05/living-

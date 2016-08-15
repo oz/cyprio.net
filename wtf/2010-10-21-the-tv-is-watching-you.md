@@ -1,5 +1,5 @@
 ---
-title: The TV is watching you
+title: "The TV is watching you"
 ---
 
 I don't watch _french_ TV at home, for a few reasons ranging from lack of

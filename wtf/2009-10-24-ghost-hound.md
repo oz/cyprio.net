@@ -1,5 +1,5 @@
 ---
-title: Ghost Hound
+title: "Ghost Hound"
 ---
 
 [Ghost Hound](http://fr.wikipedia.org/wiki/Ghost_Hound) c'est un anime en [22

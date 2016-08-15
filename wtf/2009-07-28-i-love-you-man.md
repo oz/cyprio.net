@@ -1,5 +1,5 @@
 ---
-title: I love you man
+title: "I love you man"
 ---
 
 Pour les amateurs de [How I met your

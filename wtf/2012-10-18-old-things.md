@@ -1,5 +1,5 @@
 ---
-title: Old things
+title: "Old things"
 ---
 
 I just received an e-mail from my grand-father reacting to my “new” car:

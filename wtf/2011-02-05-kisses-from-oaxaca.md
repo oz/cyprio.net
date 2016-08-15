@@ -1,5 +1,5 @@
 ---
-title: Kisses from Oaxaca
+title: "Kisses from Oaxaca"
 ---
 
 It's been 6 days since I took off from France... What can I say about Mexico?

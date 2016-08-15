@@ -1,5 +1,5 @@
 ---
-title: crappy monday one
+title: "crappy monday one"
 ---
 
 Today we're supposed to see a few guys, at work, from one of our biggest,

@@ -1,5 +1,5 @@
 ---
-title: Mac loves you
+title: "Mac loves you"
 ---
 
 Ma machine de bureau s'est récemment mise à locker ma session de façon tout à
