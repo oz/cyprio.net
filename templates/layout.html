@@ -6,6 +6,24 @@
     <title>Mostly harmless - $title$</title>
     <meta name="description" content="Mostly harmless">
     <meta name="viewport" content="width=device-width">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mostly harmless">
+    <meta property="og:locale" content="en_US">
+    $if(author)$
+      <meta property="article:author" content="$author$">
+    $else$
+      <meta property="article:author" content="Arnaud Berthomier">
+    $endif$
+    $if(title)$
+      <meta property="og:title" content="$title$">
+    $endif$
+    $if(description)$
+      <meta property="og:description" content="$description$">
+    $endif$
+    $if(image)$
+      <meta property="og:image" content="$image$">
+    $endif$
+
     <link rel="stylesheet" href="/css/main.css" media="screen">
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>

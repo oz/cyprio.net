@@ -18,7 +18,7 @@ main = hakyllWith config $ do
     match (fromList ["about.md", "contact.md"]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/default.html" defaultContext
+            >>= loadAndApplyTemplate "templates/layout.html" defaultContext
             >>= relativizeUrls
 
     match "index.html" $ do
@@ -33,7 +33,7 @@ main = hakyllWith config $ do
 
             getResourceBody
                 >>= applyAsTemplate indexCtx
-                >>= loadAndApplyTemplate "templates/default.html" indexCtx
+                >>= loadAndApplyTemplate "templates/layout.html" indexCtx
                 >>= relativizeUrls
 
 ------------------------- [ Javascript, stylesheets, and other "static" files ]
@@ -79,7 +79,7 @@ sectionRules name = do
         compile $ pandocCompiler
             >>= loadAndApplyTemplate sectionTemplate postCtx
             >>= saveSnapshot "content"
-            >>= loadAndApplyTemplate "templates/default.html" postCtx
+            >>= loadAndApplyTemplate "templates/layout.html" postCtx
             >>= relativizeUrls
 
     create [sectionHome] $ do
@@ -93,7 +93,7 @@ sectionRules name = do
 
             makeItem ""
                 >>= loadAndApplyTemplate indexTemplate archiveCtx
-                >>= loadAndApplyTemplate "templates/default.html" archiveCtx
+                >>= loadAndApplyTemplate "templates/layout.html" archiveCtx
                 >>= relativizeUrls
 
     -- RSS feed
