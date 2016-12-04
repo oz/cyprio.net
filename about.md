@@ -24,12 +24,12 @@ I'm a French guy, sharing my life between France and Mexico with my
 [wife][karina] and kid. Currently I am in: _Paris, France_.
 
 I have been selling my services as a software engineer for some years now, that
-means [I understand of everything went so wrong](https://xkcd.com/1760/). I
+means [I understand how everything went so wrong](https://xkcd.com/1760/). I
 can't stop making things with computers, that is my passion: as such, if you
 need help fixing a program, website, or cluster of connected rice cookers, you
 could hire me.
 
-I work remotely, but I can assure you that I like to meet people.
+I work remotely, but I can assure you that I like to meet people. :)
 
 
 ## Computers
