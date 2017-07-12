@@ -4,7 +4,10 @@
   "description": "This is the source for http://cyprio.net",
   "main": "index.js",
   "dependencies": {
-    "stylus": "^0.52.4"
+    "bluebird": "^3.5.0",
+    "browserify": "^14.4.0",
+    "fontfaceobserver": "^2.0.13",
+    "stylus": "^0.54.5"
   },
   "devDependencies": {},
   "repository": {

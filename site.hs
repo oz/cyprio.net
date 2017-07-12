@@ -48,15 +48,14 @@ assetsRules = do
         route   idRoute
         compile copyFileCompiler
 
-    match "js/**" $ do
-        route   idRoute
-        compile copyFileCompiler
-
     match "fonts/**" $ do
         route   idRoute
         compile copyFileCompiler
 
-    -- Compile Stylus files to CSS
+    match "js/main.js" $ do
+        route   idRoute
+        compile $ getResourceString >>= browserifyCompiler
+
     match "css/main.styl" $ do
         route   $ setExtension "css"
         compile $ getResourceString >>= stylusCompiler
@@ -135,9 +134,13 @@ postCtx =
 
 -------------------------------------------------------------- [ CSS compiler ]
 stylusCompiler :: Item String -> Compiler (Item String)
-stylusCompiler item = liftM
-  (fmap compressCss)
-  $ withItemBody (unixFilter "./node_modules/stylus/bin/stylus" ["-I", "css"]) item
+stylusCompiler source = liftM (fmap compressCss) $ withItemBody stylus source
+  where
+    stylus = unixFilter "./node_modules/.bin/stylus" ["-I", "css"]
+
+-------------------------------------------------------------- [ JS compiler ]
+browserifyCompiler :: Item String -> Compiler (Item String)
+browserifyCompiler = withItemBody (unixFilter "./node_modules/.bin/browserify" ["-e", "-"])
 
 ------------------------------------------------------------------- [ deploys ]
 
