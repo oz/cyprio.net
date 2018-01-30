@@ -1,19 +1,13 @@
 {
   "name": "cyprio",
   "version": "1.0.0",
-  "description": "This is the source for http://cyprio.net",
-  "main": "index.js",
-  "dependencies": {
+  "description": "This is the source for https://cyprio.net",
+  "devDependencies": {
     "bluebird": "^3.5.0",
     "browserify": "^14.4.0",
     "fontfaceobserver": "^2.0.13",
     "stylus": "^0.54.5"
   },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "gogs@git.cypr.io:oz/cyprio.net.git"
-  },
   "author": "oz@cypr.io",
-  "license": "ISC"
+  "license": "UNLICENSED"
 }
