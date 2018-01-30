@@ -1,0 +1,21 @@
+---
+name: site
+version: '0.1.0'
+category:
+synopsis: Cyprio.net website
+description: >
+  Cyprio.net static generator, based on Hakyll.
+author: oz@cypr.io
+maintainer: oz@cypr.io
+github: oz/cyprio.net
+license: MIT
+
+ghc-options: -threaded -Wall
+
+dependencies:
+  - base >= 4.10
+  - hakyll >= 4.10
+  - process >= 1.6
+
+executable:
+  main: Main.hs
