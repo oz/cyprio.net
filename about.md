@@ -14,20 +14,21 @@ So, I guess that this is the N-th attempt, using a great piece of software
 named [hakyll][hakyll] which sits on the fine line between *DIY* and *not my
 business*.
 
-Finally, this site helps me a lot to keep in touch with family and friends. As
-I have been living away from most of them for quite a while, and not all can
-afford to travel to Mexico, France, or wherever we are.
+Finally, this site helps me a lot to keep in touch with family and
+friends. As I live away from most of them for months at a time, and not
+all can afford to travel to Mexico, France, or wherever we are.
 
 # About the author
 
 I'm a French guy, sharing my life between France and Mexico with my
-[wife][karina] and kid. Currently I am in: _Paris, France_.
+[wife][karina] and kid. Currently I am in: _Oaxaca, Mexico_.
 
-I have been selling my services as a software engineer for some years now, that
-means [I understand how everything went so wrong](https://xkcd.com/1760/). I
-can't stop making things with computers, that is my passion: as such, if you
-need help fixing a program, website, or cluster of connected rice cookers, you
-could hire me.
+I have been selling my services as a software engineer for some years
+now, that means [I understand how everything went so
+wrong](https://xkcd.com/1760/), not necessarily how to fix it. I can't
+stop making things with computers, that is my passion: as such, if you
+need help fixing a program, website, or cluster of connected rice
+cookers, you could hire me.
 
 I work remotely, but I can assure you that I like to meet people. :)
 
@@ -42,12 +43,9 @@ can still have tons of fun.
 
 ### I'm using this
 
-My main computer is an old [Lenovo X220][x220], that has been with me
-since its release date sometime in 2010 or 2011. It has been running
-[Debian][debian], [Freebsd][freebsd], and lately [Archlinux][archlinux].
-These tend to just work on this particular laptop, I'm not going to
-evangelize any of it to you but running a free _libre_ OS is better for
-(y)our freedom.
+My main computer is a small [Dell XPS 13][xps13], it's running
+[Archlinux][archlinux] which I have no strong feelings about. I'd probably
+run some flavor of [BSD][freebsd], if my `$dayjob` didn't require Linux.
 
 I spend most of my time in terminals running [tmux][tmux], and let
 [i3][i3] manage windows for me. I use [Firefox][firefox] for browsing,
@@ -57,26 +55,24 @@ using a combination of [Syncthing][syncthing] and [git-annex][gitannex].
 [Musicpd][mpd] is probably playing music close by.
 
 Daily, I'm editing code from [Neovim][nvim], [Emacs][emacs], or even
-[Atom][atom] (I know!): [Ruby][ruby], [Javascript][node], [Go][golang], and
-[Haskell][haskell] are my favorite hammers. I'm always looking for an excuse to
-play more with [Rust][rust], [Elixir][elixir], or even [Crystal][crystal]...
-The thing is that, as long as it introduces new programming concepts, I'm
-probably interested in your new language.
+[Atom][atom] (I know!): [Ruby][ruby], [Go][golang], [Javascript][node],
+and sometimes [Haskell][haskell] are my favorite hammers. I'm always
+looking for excuses to play with other languages: as long as it introduces
+fun programming concepts, I'm probably interested in your new language.
 
 From time to time, I have to use macs. Mostly because Adobe's
-[Lightroom][lightroom] doesn't run (yet?) on Linux, so Apple is getting some of
-my money here.
+[Lightroom][lightroom] doesn't run (yet?) on Linux, so Apple is getting
+some of my money here.
 
-I have to mention that I have zero loyalty for phones, and have run Nokia's
-Maemo, Plam's webOS, Apple's iOS, Jolla's SailfishOS, and lately Google's
-Android. They all suck.
+I have to mention that I have zero loyalty for phones, and have run
+Nokia's Maemo, Plam's webOS, Apple's iOS, Jolla's SailfishOS, and lately
+Google's Android. They all suck.
 
 [lightroom]: https://www.adobe.com/products/photoshoplightroom/
-[x220]: http://www.thinkwiki.org/wiki/Category:X220
+[xps13]: https://wiki.archlinux.org/index.php/Dell_XPS_13_(9360)
 [keepass]: https://www.keepassx.org/
 [gitannex]: https://git-annex.branchable.com/
 [tmux]: https://tmux.github.io/
-[debian]: https://www.debian.org/
 [firefox]: https://www.mozilla.org/firefox
 [chromium]: https://www.chromium.org/
 [nvim]: https://neovim.io/
@@ -86,9 +82,6 @@ Android. They all suck.
 [node]: https://nodejs.org/
 [golang]: https://golang.org/
 [haskell]: https://haskell.org/
-[rust]: http://rust-lang.org/
-[elixir]: http://elixir-lang.org/
-[crystal]: https://crystal-lang.org/
 [freebsd]: http://freebsd.org/
 [archlinux]: http://archlinux.org/
 [i3]: https://i3wm.org/
