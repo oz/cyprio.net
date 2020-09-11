@@ -4,7 +4,7 @@ This is the source for https://cyprio.net
 
 To build it, you will need:
 
- * [Stack][stack], or [Cabal][cabal] to build Haskell dependencies,
+ * [Stack][stack] to build Haskell dependencies,
  * [Node.js][node] to build JS & stylesheets,
  * and some free time.
 
@@ -53,7 +53,6 @@ DEST=server.com:/srv/blog/www site deploy
 * All other contents are © Arnaud Berthomier.
 
 [hakyll]: https://jaspervdj.be/hakyll/
-[cabal]: https://www.haskell.org/cabal/
 [stack]: https://haskellstack.org/
 [pandoc]: https://pandoc.org/
 [stylus]: http://learnboost.github.io/stylus/

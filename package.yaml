@@ -1,7 +1,6 @@
----
 name: site
 version: '0.1.0'
-category:
+category: blog
 synopsis: Cyprio.net website
 description: >
   Cyprio.net static generator, based on Hakyll.
@@ -14,7 +13,7 @@ ghc-options: -threaded -Wall
 
 dependencies:
   - base >= 4.10
-  - hakyll >= 4.10
+  - hakyll >= 4.13
   - process >= 1.6
 
 executable:
