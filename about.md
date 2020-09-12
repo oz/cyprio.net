@@ -98,13 +98,14 @@ DSLRs and some excellent lenses, but I wanted [lighter and less flashy
 gear][xt1]. I also did not need that much megapixels.
 
 Meanwhile I had been playing with borrowed [Holga][holga] and
-[Diana][diana] cameras ; however terrible tools they were in my hands,
-the film process was a fun distraction. I was hooked. I got myself the
-little [Lomo LCA+][lomo], and carried it everywhere, happily snapping
-without thinking of how I was engaging my four [Instagram][instagram]
-followers.
+[Diana][diana] cameras ; but no matter how terrible tools they were in
+my hands, the film process was a fun distraction. I was hooked. I got
+myself the little [Lomo LCA+][lomo], and carried it everywhere, happily
+snapping without thinking of how I was engaging my four
+[Instagram][instagram] followers.
 
-Film, surprisingly, refuses to die. I am thankful for this.
+Film, surprisingly, refuses to die. I am thankful for this long agony,
+even if it seems to produce lots of "analog artists".
 
 In the end, I found a [Leica M6][m6] in really good shape on e-bay,
 bought 35mm and 50mm lenses for it, and started to think a little
@@ -135,10 +136,15 @@ available under this domain first-hand, before federating to various
 services. However, time is not my friend, and you'll find me on various
 centralized online services:
 
- * I share code [on Github][github],
- * I [tweet][twitter],
- * and publish pictures, mostly [on Flickr][flickr].
+ * I share code on [my little git server][gitea] but also [on Github][github],
+ * I [toot][fediverse] more than I [tweet][twitter] these days (good!),
+ * and (used to) publish pictures, mostly [on Flickr][flickr].
 
+That decentralization thing is ongoing ; we'll where it leads in a few
+years.
+
+[gitea]: https://git.cypr.io/
+[fediverse]: https://mastodon.social/@oz
 [twitter]: https://twitter.com/ephoz
 [flickr]: https://flickr.com/photos/ephoz
 [instagram]: https://www.instagram.com/ephoz/
