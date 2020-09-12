@@ -4,15 +4,16 @@ title: About
 
 # About this website
 
-I have never been very good at maintaining websites.  However, as I sometimes
-feel the need to write (sorry about that), I once decided that keeping an
-online repository would help.  Of course it does not: it has been fun (and
-time-consuming) when I had the leisure to roll my own software for the task,
-and boring at best when I tried to use other people's soup.
+I have never been very good at maintaining websites.  However, as I
+sometimes feel the need to write (sorry about that), I once decided that
+keeping an online repository would help.  Of course it does not: it has
+been fun (and time-consuming) when I had the leisure to roll my own
+software for the task, and boring at best when I tried to use other
+people's soup.
 
-So, I guess that this is the N-th attempt, using a great piece of software
-named [hakyll][hakyll] which sits on the fine line between *DIY* and *not my
-business*.
+So, I guess that this is the N-th attempt, using a great piece of
+software named [hakyll][hakyll] which sits on the fine line between
+*DIY* and *not my business*.
 
 Finally, this site helps me a lot to keep in touch with family and
 friends. As I live away from most of them for months at a time, and not
@@ -26,9 +27,8 @@ I'm a French guy, sharing my life between France and Mexico with my
 I have been selling my services as a software engineer for some years
 now, that means [I understand how everything went so
 wrong](https://xkcd.com/1760/), not necessarily how to fix it. I can't
-stop making things with computers, that is my passion: as such, if you
-need help fixing a program, website, or cluster of connected rice
-cookers, you could hire me.
+stop making things with computers and that's how I spend most of my
+time.
 
 I work remotely, but I can assure you that I like to meet people. :)
 
@@ -44,33 +44,32 @@ can still have tons of fun.
 ### I'm using this
 
 My main computer is a small [Dell XPS 13][xps13], it's running
-[Archlinux][archlinux] which I have no strong feelings about. I'd probably
-run some flavor of [BSD][freebsd], if my `$dayjob` didn't require Linux.
+[Archlinux][archlinux] which I have no strong feelings about. I'd
+probably run some flavor of [BSD][freebsd], if my dayjob didn't require
+Linux, containers and what not.
 
 I spend most of my time in terminals running [tmux][tmux], and let
-[i3][i3] manage windows for me. I use [Firefox][firefox] for browsing,
-and [Chromium][chromium] for web development. I store passwords in a
-[KeepassX][keepass] safe, and synchronize files between various devices
-using a combination of [Syncthing][syncthing] and [git-annex][gitannex].
-[Musicpd][mpd] is probably playing music close by.
+[i3][i3] manage windows for me. I use both [Firefox][firefox] and
+[Chromium][chromium] because Chrome is eating the web. I store passwords
+with [Bitwarden][bitwarden], and synchronize files between various
+devices using a combination of [Syncthing][syncthing] and
+[git-annex][gitannex]. [Musicpd][mpd] is probably playing music close
+by.
 
-Daily, I'm editing code from [Neovim][nvim], [Emacs][emacs], or even
-[Atom][atom] (I know!): [Ruby][ruby], [Go][golang], [Javascript][node],
-and sometimes [Haskell][haskell] are my favorite hammers. I'm always
-looking for excuses to play with other languages: as long as it introduces
-fun programming concepts, I'm probably interested in your new language.
-
-From time to time, I have to use macs. Mostly because Adobe's
-[Lightroom][lightroom] doesn't run (yet?) on Linux, so Apple is getting
-some of my money here.
+Daily, I'm editing text from [Neovim][nvim], or [Emacs][emacs]. I'm some
+kind of a polyglot developer with a taste for [Ruby][ruby],
+[Go][golang], and sometimes [Haskell][haskell]. I'm always looking for
+excuses to play with other languages, more so if they try to change how
+I think of programming. Lately: Rust, Nim, Zig, Elixir, Gleam, (...) all
+interesting. :)
 
 I have to mention that I have zero loyalty for phones, and have run
 Nokia's Maemo, Plam's webOS, Apple's iOS, Jolla's SailfishOS, and lately
 Google's Android. They all suck.
 
-[lightroom]: https://www.adobe.com/products/photoshoplightroom/
 [xps13]: https://wiki.archlinux.org/index.php/Dell_XPS_13_(9360)
 [keepass]: https://www.keepassx.org/
+[bitwarden]: https://bitwarden.com/
 [gitannex]: https://git-annex.branchable.com/
 [tmux]: https://tmux.github.io/
 [firefox]: https://www.mozilla.org/firefox
@@ -79,7 +78,6 @@ Google's Android. They all suck.
 [emacs]: https://www.gnu.org/software/emacs/
 [atom]: https://atom.io/
 [ruby]: https://www.ruby-lang.org/
-[node]: https://nodejs.org/
 [golang]: https://golang.org/
 [haskell]: https://haskell.org/
 [freebsd]: http://freebsd.org/
