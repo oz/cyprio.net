@@ -60,6 +60,10 @@ assetsRules = do
         route   $ setExtension "css"
         compile $ getResourceString >>= stylusCompiler
 
+    match "css/*.css" $ do
+        route   idRoute
+        compile copyFileCompiler
+
 ------------------------------------------------------------- [ Bloggy things ]
 
 sectionRules :: String -> Rules ()
@@ -69,7 +73,7 @@ sectionRules name = do
     let sectionTemplate = fromFilePath ("templates/" ++ name ++ "/post.html")
     let indexTemplate   = fromFilePath ("templates/" ++ name ++ "/index.html")
     let rssFeed         = fromFilePath (name ++ "/index.xml")
-    let atomFeed        = fromFilePath (name ++ "/atom.xml")
+    -- let atomFeed        = fromFilePath (name ++ "/atom.xml")
 
     match (fromGlob ("templates/" ++ name ++ "/*")) $ compile templateCompiler
 
@@ -104,12 +108,12 @@ sectionRules name = do
             >>= renderRss (feedConfig $ " - Latest under " ++ name) feedCtx
 
     -- Atom feed
-    create [atomFeed] $ do
-        route idRoute
-        compile $
-            loadAllSnapshots sectionFiles "content"
-            >>= fmap (take 10) . recentFirst
-            >>= renderAtom (feedConfig $ " - Latest under " ++ name) feedCtx
+    -- create [atomFeed] $ do
+    --     route idRoute
+    --     compile $
+    --         loadAllSnapshots sectionFiles "content"
+    --         >>= fmap (take 10) . recentFirst
+    --         >>= renderAtom (feedConfig $ " - Latest under " ++ name) feedCtx
 
 feedCtx :: Context String
 feedCtx = mconcat

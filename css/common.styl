@@ -1,11 +1,6 @@
 body
   font-family "Libertine", serif
 
-pre, code
-  font-family monospace
-  font-size 1em
-  line-height: 1.4em
-
 a, a:visited, a:hover, a:focus, a:active
   color $linkColor
   text-decoration none
@@ -14,6 +9,11 @@ a, a:visited, a:hover, a:focus, a:active
 a:hover
   color lighten($linkColor, 20)
   border-bottom 1px $linkBorderColor solid
+
+pre, code
+  font-family monospace
+  font-size 1em
+  line-height: 1.4em
 
 .date
   color $articleHeaderColor

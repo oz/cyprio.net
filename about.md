@@ -26,46 +26,55 @@ I'm a French guy, sharing my life between France and Mexico with my
 
 I have been selling my services as a software engineer for some years
 now, that means [I understand how everything went so
-wrong](https://xkcd.com/1760/), not necessarily how to fix it. I can't
-stop making things with computers and that's how I spend most of my
-time.
+wrong](https://xkcd.com/1760/), not necessarily how to fix it. I enjoy
+making things with computers and that's still how I spend most of my
+time!
 
-I work remotely, but I can assure you that I like to meet people. :)
+I've worked remotely for years, but I can assure you that I like to meet
+people. :)
 
 
 ## Computers
 
 Curiosity is the main reason I'm into computers, and also a sense of
 practicality: I like to (re-)program things around me to do whatever I
-want. This is sadly less and less permitted by hardware and software
-vendors, and so requires more patience and skills than it should, but we
-can still have tons of fun.
+want. Not always what the vendor thought would be nice. This is sadly
+less and less permitted by hardware and software vendors, and so
+requires more patience and skills than it should, but we can still have
+tons of fun.
+
+If you've ever had to replace a battery in an appliance, a broken phone
+screen, or modify retail electronics, you know how this sucks. We must
+improve that in order to be free, and produce less waste.
 
 ### I'm using this
 
-My main computer is a small [Dell XPS 13][xps13], it's running
-[Archlinux][archlinux] which I have no strong feelings about. I'd
+My computer is a small [Dell XPS 13][xps13], it's running
+[Archlinux][archlinux] which I have no strong feelings about. It's been
+around for 5+ years, and only had its battery changed twice. I'd
 probably run some flavor of [BSD][freebsd], if my dayjob didn't require
 Linux, containers and what not.
 
 I spend most of my time in terminals running [tmux][tmux], and let
 [i3][i3] manage windows for me. I use both [Firefox][firefox] and
-[Chromium][chromium] because Chrome is eating the web. I store passwords
-with [Bitwarden][bitwarden], and synchronize files between various
-devices using a combination of [Syncthing][syncthing] and
-[git-annex][gitannex]. [Musicpd][mpd] is probably playing music close
-by.
+[qutebrowser][qutebrowser], or [Chromium][chromium] because Chrome is the
+web, don't you know? Ah well, another thing that sucks.
+
+I store passwords with [Bitwarden][bitwarden], and synchronize files
+between various devices using a combination of [Syncthing][syncthing]
+and [git-annex][gitannex]. [Musicpd][mpd] is probably playing music
+close by.
 
 Daily, I'm editing text from [Neovim][nvim], or [Emacs][emacs]. I'm some
 kind of a polyglot developer with a taste for [Ruby][ruby],
 [Go][golang], and sometimes [Haskell][haskell]. I'm always looking for
 excuses to play with other languages, more so if they try to change how
-I think of programming. Lately: Rust, Nim, Zig, Elixir, Gleam, (...) all
-interesting. :)
+I think of programming. Lately: Rust, Zig, Crystal, Elixir, Gleam, (...)
+all interesting, and flawed in their own way. :)
 
-I have to mention that I have zero loyalty for phones, and have run
-Nokia's Maemo, Plam's webOS, Apple's iOS, Jolla's SailfishOS, and lately
-Google's Android. They all suck.
+I should mention that I have zero brand loyalty for phones, and have
+run Nokia's Maemo, Palm's webOS, Apple's iOS, Jolla's SailfishOS, and
+lately Google's Android. They all suck, and I hate phones anyway.
 
 [xps13]: https://wiki.archlinux.org/index.php/Dell_XPS_13_(9360)
 [keepass]: https://www.keepassx.org/
@@ -74,6 +83,7 @@ Google's Android. They all suck.
 [tmux]: https://tmux.github.io/
 [firefox]: https://www.mozilla.org/firefox
 [chromium]: https://www.chromium.org/
+[qutebrowser]: https://qutebrowser.org/
 [nvim]: https://neovim.io/
 [emacs]: https://www.gnu.org/software/emacs/
 [atom]: https://atom.io/
@@ -105,7 +115,9 @@ snapping without thinking of how I was engaging my four
 [Instagram][instagram] followers.
 
 Film, surprisingly, refuses to die. I am thankful for this long agony,
-even if it seems to produce lots of "analog artists".
+even if it seems to produce lots of "analog artists". These days, I'd
+rather print the pictures I like, which makes it hard to "like" them on
+any platform.
 
 In the end, I found a [Leica M6][m6] in really good shape on e-bay,
 bought 35mm and 50mm lenses for it, and started to think a little
@@ -114,10 +126,10 @@ in [my little camera bag][onabags], and seem to have quenched my Gear
 Acquisition Syndrome.
 
 I am by no mean a professional or an artist, but photography is a good
-way for me to get me out of my comfort zone. It has allowed me to meet
-incredible people. Finally, shooting film rather than only digital is
-part of a collection of details and setups that make my brain happier.
-Which is a good reason to keep using film as long as they sell it.
+way to get out of my comfort zone. It has allowed me to meet incredible
+people. Finally, shooting film rather than digital is part of a
+collection of details and setups that make my brain happier. Which is a
+good reason to keep using film as long as they sell it.
 
 [onabags]: https://www.onabags.com/
 [dlux]: https://en.wikipedia.org/wiki/Panasonic_Lumix_DMC-LX3#Leica_D-Lux_4
@@ -140,12 +152,12 @@ centralized online services:
  * I [toot][fediverse] more than I [tweet][twitter] these days (good!),
  * and (used to) publish pictures, mostly [on Flickr][flickr].
 
-That decentralization thing is ongoing ; we'll where it leads in a few
-years.
+That decentralization thing is ongoing ; we'll see where it leads in a
+few years.
 
 [gitea]: https://git.cypr.io/
 [fediverse]: https://mastodon.social/@oz
-[twitter]: https://twitter.com/ephoz
+[twitter]: https://twitter.com/tleican
 [flickr]: https://flickr.com/photos/ephoz
 [instagram]: https://www.instagram.com/ephoz/
 [github]: https://github.com/oz
