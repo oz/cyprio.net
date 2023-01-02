@@ -149,7 +149,7 @@ services. However, time is not my friend, and you'll find me on various
 centralized online services:
 
  * I share code on [my little git server][gitea] but also [on Github][github],
- * I [toot][fediverse] more than I [tweet][twitter] these days (good!),
+ * I [toot][fediverse],
  * and (used to) publish pictures, mostly [on Flickr][flickr].
 
 That decentralization thing is ongoing ; we'll see where it leads in a
@@ -157,7 +157,6 @@ few years.
 
 [gitea]: https://git.cypr.io/
 [fediverse]: https://mastodon.social/@oz
-[twitter]: https://twitter.com/tleican
 [flickr]: https://flickr.com/photos/ephoz
 [instagram]: https://www.instagram.com/ephoz/
 [github]: https://github.com/oz
