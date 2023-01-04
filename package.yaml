@@ -12,8 +12,8 @@ license: MIT
 ghc-options: -threaded -Wall
 
 dependencies:
-  - base >= 4.10
-  - hakyll >= 4.13
+  - base >= 4.13
+  - hakyll >= 4.15
   - process >= 1.6
 
 executable:
