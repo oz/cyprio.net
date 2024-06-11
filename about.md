@@ -49,32 +49,31 @@ improve that in order to be free, and produce less waste.
 
 ### I'm using this
 
-My computer is a small [Dell XPS 13][xps13], it's running
-[Archlinux][archlinux] which I have no strong feelings about. It's been
-around for 5+ years, and only had its battery changed twice. I'd
-probably run some flavor of [BSD][freebsd], if my dayjob didn't require
-Linux, containers and what not.
+My *own* computer is a small [Dell XPS 13][xps13], it's running
+[Archlinux][archlinux] which I have no strong feelings about. I've had
+the laptop for years, it's less powerful than most smartphones, and
+only had its battery changed once, or twice (off-brand batteries aren't
+exactly great).
+
+My *work* computer is a boring Apple laptop, the normal dev setup in
+this age.
 
 I spend most of my time in terminals running [tmux][tmux], and let
-[i3][i3] manage windows for me. I use both [Firefox][firefox] and
+[sway][sway] manage windows for me. I use both [Firefox][firefox] and
 [qutebrowser][qutebrowser], or [Chromium][chromium] because Chrome is the
 web, don't you know? Ah well, another thing that sucks.
 
 I store passwords with [Bitwarden][bitwarden], and synchronize files
 between various devices using a combination of [Syncthing][syncthing]
 and [git-annex][gitannex]. [Musicpd][mpd] is probably playing music
-close by.
+close by, if Spotify isn't.
 
-Daily, I'm editing text from [Neovim][nvim], or [Emacs][emacs]. I'm some
-kind of a polyglot developer with a taste for [Ruby][ruby],
-[Go][golang], and sometimes [Haskell][haskell]. I'm always looking for
-excuses to play with other languages, more so if they try to change how
-I think of programming. Lately: Rust, Zig, Crystal, Elixir, Gleam, (...)
-all interesting, and flawed in their own way. :)
-
-I should mention that I have zero brand loyalty for phones, and have
-run Nokia's Maemo, Palm's webOS, Apple's iOS, Jolla's SailfishOS, and
-lately Google's Android. They all suck, and I hate phones anyway.
+Daily, I write in [Neovim][nvim], or [Emacs][emacs]. I'm some kind of
+a polyglot developer with a taste for [Ruby][ruby], [Go][golang], and
+sometimes [Haskell][haskell]. I'm always looking for excuses to play
+with other languages, more so if they try to change how I think of
+programming. Lately: Rust, Zig, Crystal, Elixir, Gleam, (... all       )
+interesting, and flawed in their own way). :                            )
 
 [xps13]: https://wiki.archlinux.org/index.php/Dell_XPS_13_(9360)
 [keepass]: https://www.keepassx.org/
@@ -86,13 +85,12 @@ lately Google's Android. They all suck, and I hate phones anyway.
 [qutebrowser]: https://qutebrowser.org/
 [nvim]: https://neovim.io/
 [emacs]: https://www.gnu.org/software/emacs/
-[atom]: https://atom.io/
 [ruby]: https://www.ruby-lang.org/
 [golang]: https://golang.org/
 [haskell]: https://haskell.org/
 [freebsd]: http://freebsd.org/
 [archlinux]: http://archlinux.org/
-[i3]: https://i3wm.org/
+[sway]: https://swaywm.org/
 [syncthing]: https://syncthing.net/
 [mpd]: https://www.musicpd.org/
 
@@ -105,7 +103,9 @@ for a while until I decided I actually wanted a camera. So I upgraded
 to a fat [Canon 5D][5d] (mark 2 at the time) which kept me busy for
 years with its billions megapixels, until I sold it. Canon makes great
 DSLRs and some excellent lenses, but I wanted [lighter and less flashy
-gear][xt1]. I also did not need that much megapixels.
+gear][xt1]. I also did not need that much megapixels. I usually carry a
+[Ricoh GRIIIx][ricoh-gr3x], because it's light and very capable if you
+actually want to make pictures.
 
 Meanwhile I had been playing with borrowed [Holga][holga] and
 [Diana][diana] cameras ; but no matter how terrible tools they were in
@@ -121,7 +121,7 @@ any platform.
 
 In the end, I found a [Leica M6][m6] in really good shape on e-bay,
 bought 35mm and 50mm lenses for it, and started to think a little
-before I take a picture. These days I always carry the Leica and Fuji
+before I take a picture. These days I carry both the Leica and Ricoh
 in [my little camera bag][onabags], and seem to have quenched my Gear
 Acquisition Syndrome.
 
@@ -139,6 +139,7 @@ good reason to keep using film as long as they sell it.
 [lomo]: http://microsites.lomography.com/lca+/
 [m6]: http://camerapedia.wikia.com/wiki/Leica_M6
 [xt1]: http://www.kenrockwell.com/fuji/x-t1.htm
+[ricoh-gr3x]: https://www.ricoh-imaging.co.jp/english/products/gr-3/
 
 # Still reading?
 
@@ -148,14 +149,14 @@ available under this domain first-hand, before federating to various
 services. However, time is not my friend, and you'll find me on various
 centralized online services:
 
- * I share code on [my little git server][gitea] but also [on Github][github],
+ * I share code on [my little git server][forge] but also [on Github][github],
  * I [toot][fediverse],
  * and (used to) publish pictures, mostly [on Flickr][flickr].
 
 That decentralization thing is ongoing ; we'll see where it leads in a
 few years.
 
-[gitea]: https://git.cypr.io/
+[forge]: https://git.cypr.io/oz
 [fediverse]: https://mastodon.social/@oz
 [flickr]: https://flickr.com/photos/ephoz
 [instagram]: https://www.instagram.com/ephoz/

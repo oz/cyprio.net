@@ -123,8 +123,8 @@ backtick key will activate *Caps-word*, rejoice.
 Done?
 
 Dancing is nice(r) with music. My rev3 Preonic has a (~~possibly~~
-annoying) speaker. Wouldn't it be nice to play a few notes as you
-activate a tap dance? I'm sure everybody around would love it.
+annoying) speaker. Wouldn't it be nice to [play a few notes as you
+activate a tap dance][next-post]? I'm sure everybody around would love it.
 
 Also, what if I want to have a Tap dance on a different key like *Left
 Control* or something?
@@ -135,3 +135,4 @@ couple of years if this site's post frequency is stable.
 Thanks for reading.
 
 [qmk]: https://qmk.fm
+[next-post]: ./2024-06-11-preonic-sounds.html
