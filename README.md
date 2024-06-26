@@ -5,7 +5,7 @@ This is the source for https://cyprio.net
 To build it, you will need:
 
  * [Stack][stack] to build Haskell dependencies,
- * [Node.js][node] to build JS & stylesheets,
+ * [Node.js][node] to compile stylesheets (Stylus),
  * and some free time.
 
 To deploy, you will need [Rsync][rsync]. All those things should have
