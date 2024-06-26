@@ -28,7 +28,7 @@ Let's look into this here.
 
 First, change `rules.mk` to enable both features, adding:
 
-```
+```c
 CAPS_WORD_ENABLE = yes
 TAP_DANCE_ENABLE = yes
 ```
@@ -39,7 +39,7 @@ whether that's a good definition, but that's how my brain explains it.
 
 Change `config.h` to define this as needed, for example:
 
-```
+```c
 #define TAPPING_TERM 200
 ```
 
@@ -52,7 +52,7 @@ The meat of this little hack lives inside `keymap.c`.
 Let's add a `cur_dance` helper that will tell use where we're at in our
 Tap dance:
 
-```
+```c
 // Some Tap Dance states
 enum {
 	SINGLE_TAP = 1,
@@ -76,7 +76,7 @@ The logic is pretty simple. For our use case, we also need 2 functions
 to hook in the *finished* and *reset* callbacks of a Tap dance. Let's
 add these next:
 
-```
+```c
 // Tap-dance is over.
 void dance_cw_finished(tap_dance_state_t *state, void *user_data) {
 	int dance = cur_dance(state);
@@ -104,7 +104,7 @@ What's left is some boiler-plate to register our handlers as a Tap
 dance, named `TD_GRV_CW`, which is a pretty bad name if you try to
 pronounce it. It did made sense at the time:
 
-```
+```c
 // Backtick or Caps-word tap-dance.
 enum {
 	TD_GRV_CW,
