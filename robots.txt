@@ -1,2 +1,10 @@
+User-agent: FacebookBot
+User-agent: Google-Extended
 User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: Omgili
+User-agent: Omgilibot
+User-agent: PerplexityBot
+User-agent: Timpibot
+User-agent: YouBot
 Disallow: /
