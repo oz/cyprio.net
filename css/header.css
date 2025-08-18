@@ -1,44 +1,44 @@
 /* Logo */
 #logo {
-  color: #fff;
-  font-family: "Open Sans", sans-serif;
-  font-size: 10px;
-  line-height: 8px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  text-align: center;
-  width: 200px;
-  margin: 0px auto 50px;
-  text-shadow: 1px 1px 3px #888;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+    line-height: 8px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    width: 200px;
+    margin: 0px auto 50px;
+    text-shadow: 1px 1px 3px #888;
 }
 
 #logo a {
-  color: #fff;
-  border: none;
+    color: #fff;
+    border: none;
 }
 
 /* Navigation */
 nav {
-  width: 100%;
-  padding: 2px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1em;
-  text-align: center;
-  letter-spacing: 2px;
+    width: 100%;
+    padding: 2px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    text-align: center;
+    letter-spacing: 2px;
 }
 
 nav a {
-  border: none;
-  padding: 2px 4px;
-  -moz-transition: all 0.2s ease-in;
-  -webkit-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-  text-transform: uppercase;
-  cursor: pointer;
+    border: none;
+    padding: 2px 4px;
+    -moz-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 nav a:hover {
-  border: none;
-  text-shadow: 0px 1px 6px #000;
+    border: none;
+    text-shadow: 0px 1px 6px #000;
 }

@@ -1,28 +1,31 @@
 /* Transition utilities */
 :root {
-  --transition-duration: 0.2s;
-  --transition-timing: ease-in-out;
-  --transition-all: all var(--transition-duration) var(--transition-timing);
+    --transition-duration: 0.2s;
+    --transition-timing: ease-in-out;
+    --transition-all: all var(--transition-duration) var(--transition-timing);
 }
 
 /* Utility classes for common transitions */
 .transition-all {
-  -moz-transition: all var(--transition-duration) var(--transition-timing);
-  -webkit-transition: all var(--transition-duration) var(--transition-timing);
-  -o-transition: all var(--transition-duration) var(--transition-timing);
-  transition: all var(--transition-duration) var(--transition-timing);
+    -moz-transition: all var(--transition-duration) var(--transition-timing);
+    -webkit-transition: all var(--transition-duration) var(--transition-timing);
+    -o-transition: all var(--transition-duration) var(--transition-timing);
+    transition: all var(--transition-duration) var(--transition-timing);
 }
 
 .transition-opacity {
-  -moz-transition: opacity var(--transition-duration) var(--transition-timing);
-  -webkit-transition: opacity var(--transition-duration) var(--transition-timing);
-  -o-transition: opacity var(--transition-duration) var(--transition-timing);
-  transition: opacity var(--transition-duration) var(--transition-timing);
+    -moz-transition: opacity var(--transition-duration) var(--transition-timing);
+    -webkit-transition: opacity var(--transition-duration)
+        var(--transition-timing);
+    -o-transition: opacity var(--transition-duration) var(--transition-timing);
+    transition: opacity var(--transition-duration) var(--transition-timing);
 }
 
 .transition-transform {
-  -moz-transition: transform var(--transition-duration) var(--transition-timing);
-  -webkit-transition: transform var(--transition-duration) var(--transition-timing);
-  -o-transition: transform var(--transition-duration) var(--transition-timing);
-  transition: transform var(--transition-duration) var(--transition-timing);
+    -moz-transition: transform var(--transition-duration)
+        var(--transition-timing);
+    -webkit-transition: transform var(--transition-duration)
+        var(--transition-timing);
+    -o-transition: transform var(--transition-duration) var(--transition-timing);
+    transition: transform var(--transition-duration) var(--transition-timing);
 }

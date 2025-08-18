@@ -1,12 +1,12 @@
 :root {
-  --background-color: #343434;
-  --text-color: #fff;
-  --link-color: #D9E85F;
-  --link-border-color: #999;
-  --titles-color: #bbb;
-  --titles-border-color: #444;
-  --img-caption-color: #cccccc;
-  --article-header-color: #bbb;
-  --footer-border-color: #444;
-  --separator-border-color: #fff;
+    --background-color: #343434;
+    --text-color: #fff;
+    --link-color: #d9e85f;
+    --link-border-color: #999;
+    --titles-color: #bbb;
+    --titles-border-color: #444;
+    --img-caption-color: #cccccc;
+    --article-header-color: #bbb;
+    --footer-border-color: #444;
+    --separator-border-color: #fff;
 }
