@@ -15,7 +15,7 @@ main = hakyllWith config $ do
     sectionRules "wtf"
     sectionRules "reviews"
 
-    match (fromList ["about.md", "contact.md"]) $ do
+    match (fromList ["about.md", "contact.md", "projects.md"]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/layout.html" defaultContext
