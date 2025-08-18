@@ -1,155 +1,147 @@
 -------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
-import Data.Monoid (mappend, mconcat)
-import Data.Functor ((<$>))
+
 import Hakyll
-import System.Exit (ExitCode(..))
-import System.Process (system)
 import System.Environment (lookupEnv)
-import Control.Monad (liftM)
+import System.Exit (ExitCode (..))
+import System.Process (system)
 
 main :: IO ()
 main = hakyllWith config $ do
-    match "templates/*" $ compile templateCompiler
-    assetsRules
-    sectionRules "wtf"
-    sectionRules "reviews"
+  match "templates/*" $ compile templateCompiler
+  assetsRules
+  sectionRules "wtf"
+  sectionRules "reviews"
 
-    match (fromList ["about.md", "contact.md", "projects.md"]) $ do
-        route   $ setExtension "html"
-        compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/layout.html" defaultContext
-            >>= relativizeUrls
+  match (fromList ["about.md", "contact.md", "projects.md"]) $ do
+    route $ setExtension "html"
+    compile $
+      pandocCompiler
+        >>= loadAndApplyTemplate "templates/layout.html" defaultContext
+        >>= relativizeUrls
 
-    match "index.html" $ do
-        route idRoute
-        compile $ do
-            posts <- loadAll "wtf/*.md"
-            sorted_posts <- take 3 <$> recentFirst posts
-            let indexCtx =
-                    listField "posts" postCtx (return sorted_posts) `mappend`
-                    constField "title" "Home"                       `mappend`
-                    defaultContext
+  match "index.html" $ do
+    route idRoute
+    compile $ do
+      posts <- loadAll "wtf/*.md"
+      sorted_posts <- take 3 <$> recentFirst posts
+      let indexCtx =
+            listField "posts" postCtx (return sorted_posts)
+              `mappend` constField "title" "Home"
+              `mappend` defaultContext
 
-            getResourceBody
-                >>= applyAsTemplate indexCtx
-                >>= loadAndApplyTemplate "templates/layout.html" indexCtx
-                >>= relativizeUrls
+      getResourceBody
+        >>= applyAsTemplate indexCtx
+        >>= loadAndApplyTemplate "templates/layout.html" indexCtx
+        >>= relativizeUrls
 
 ------------------------- [ Javascript, stylesheets, and other "static" files ]
 
 assetsRules :: Rules ()
 assetsRules = do
-    match "img/*" $ do
-        route   idRoute
-        compile copyFileCompiler
+  match "img/*" $ do
+    route idRoute
+    compile copyFileCompiler
 
-    match (fromList ["favicon.ico", "robots.txt"]) $ do
-        route   idRoute
-        compile copyFileCompiler
+  match (fromList ["favicon.ico", "robots.txt"]) $ do
+    route idRoute
+    compile copyFileCompiler
 
-    match "fonts/**" $ do
-        route   idRoute
-        compile copyFileCompiler
+  match "fonts/**" $ do
+    route idRoute
+    compile copyFileCompiler
 
-    match "js/main.js" $ do
-        route   idRoute
-        compile copyFileCompiler
+  match "js/main.js" $ do
+    route idRoute
+    compile copyFileCompiler
 
-    match "css/code/**" $ do
-        route   idRoute
-        compile copyFileCompiler
+  match "css/code/**" $ do
+    route idRoute
+    compile copyFileCompiler
 
-    match "css/main.styl" $ do
-        route   $ setExtension "css"
-        compile $ getResourceString >>= stylusCompiler
-
-    match "css/*.css" $ do
-        route   idRoute
-        compile copyFileCompiler
+  match "css/*.css" $ do
+    route idRoute
+    compile copyFileCompiler
 
 ------------------------------------------------------------- [ Bloggy things ]
 
 sectionRules :: String -> Rules ()
 sectionRules name = do
-    let sectionHome     = fromFilePath (name ++ "/index.html")
-    let sectionFiles    = fromGlob (name ++ "/*.md")
-    let sectionTemplate = fromFilePath ("templates/" ++ name ++ "/post.html")
-    let indexTemplate   = fromFilePath ("templates/" ++ name ++ "/index.html")
-    let rssFeed         = fromFilePath (name ++ "/index.xml")
-    -- let atomFeed        = fromFilePath (name ++ "/atom.xml")
+  let sectionHome = fromFilePath (name ++ "/index.html")
+  let sectionFiles = fromGlob (name ++ "/*.md")
+  let sectionTemplate = fromFilePath ("templates/" ++ name ++ "/post.html")
+  let indexTemplate = fromFilePath ("templates/" ++ name ++ "/index.html")
+  let rssFeed = fromFilePath (name ++ "/index.xml")
+  -- let atomFeed        = fromFilePath (name ++ "/atom.xml")
 
-    match (fromGlob ("templates/" ++ name ++ "/*")) $ compile templateCompiler
+  match (fromGlob ("templates/" ++ name ++ "/*")) $ compile templateCompiler
 
-    match sectionFiles $ do
-        route $ setExtension "html"
-        compile $ pandocCompiler
-            >>= loadAndApplyTemplate sectionTemplate postCtx
-            >>= saveSnapshot "content"
-            >>= loadAndApplyTemplate "templates/layout.html" postCtx
-            >>= relativizeUrls
+  match sectionFiles $ do
+    route $ setExtension "html"
+    compile $
+      pandocCompiler
+        >>= loadAndApplyTemplate sectionTemplate postCtx
+        >>= saveSnapshot "content"
+        >>= loadAndApplyTemplate "templates/layout.html" postCtx
+        >>= relativizeUrls
 
-    create [sectionHome] $ do
-        route idRoute
-        compile $ do
-            posts <- recentFirst =<< loadAll sectionFiles
-            let archiveCtx =
-                    listField "posts" postCtx (return posts) `mappend`
-                    constField "title" name                  `mappend`
-                    defaultContext
+  create [sectionHome] $ do
+    route idRoute
+    compile $ do
+      posts <- recentFirst =<< loadAll sectionFiles
+      let archiveCtx =
+            listField "posts" postCtx (return posts)
+              `mappend` constField "title" name
+              `mappend` defaultContext
 
-            makeItem ""
-                >>= loadAndApplyTemplate indexTemplate archiveCtx
-                >>= loadAndApplyTemplate "templates/layout.html" archiveCtx
-                >>= relativizeUrls
+      makeItem ""
+        >>= loadAndApplyTemplate indexTemplate archiveCtx
+        >>= loadAndApplyTemplate "templates/layout.html" archiveCtx
+        >>= relativizeUrls
 
-    -- RSS feed
-    create [rssFeed] $ do
-        route idRoute
-        compile $
-            loadAllSnapshots sectionFiles "content"
-            >>= fmap (take 10) . recentFirst
-            >>= renderRss (feedConfig $ " - Latest under " ++ name) feedCtx
+  -- RSS feed
+  create [rssFeed] $ do
+    route idRoute
+    compile $
+      loadAllSnapshots sectionFiles "content"
+        >>= fmap (take 10) . recentFirst
+        >>= renderRss (feedConfig $ " - Latest under " ++ name) feedCtx
 
-    -- Atom feed
-    -- create [atomFeed] $ do
-    --     route idRoute
-    --     compile $
-    --         loadAllSnapshots sectionFiles "content"
-    --         >>= fmap (take 10) . recentFirst
-    --         >>= renderAtom (feedConfig $ " - Latest under " ++ name) feedCtx
+-- Atom feed
+-- create [atomFeed] $ do
+--     route idRoute
+--     compile $
+--         loadAllSnapshots sectionFiles "content"
+--         >>= fmap (take 10) . recentFirst
+--         >>= renderAtom (feedConfig $ " - Latest under " ++ name) feedCtx
 
 feedCtx :: Context String
-feedCtx = mconcat
-    [ bodyField "description"
-    , defaultContext
+feedCtx =
+  mconcat
+    [ bodyField "description",
+      defaultContext
     ]
 
 feedConfig :: String -> FeedConfiguration
-feedConfig title = FeedConfiguration
-    { feedTitle       = "Mostly harmless" ++ title
-    , feedDescription = "rants and news from the fringe"
-    , feedAuthorName  = "oz"
-    , feedAuthorEmail = "oz@cyprio.net"
-    , feedRoot        = "http://cyprio.net"
+feedConfig title =
+  FeedConfiguration
+    { feedTitle = "Mostly harmless" ++ title,
+      feedDescription = "rants and news from the fringe",
+      feedAuthorName = "oz",
+      feedAuthorEmail = "oz@cyprio.net",
+      feedRoot = "http://cyprio.net"
     }
 
 ----------------------------------------------------- [ date format for posts ]
 postCtx :: Context String
 postCtx =
-    dateField "date" "%B %e, %Y" `mappend`
-    defaultContext
-
--------------------------------------------------------------- [ CSS compiler ]
-stylusCompiler :: Item String -> Compiler (Item String)
-stylusCompiler source = liftM (fmap compressCss) $ withItemBody stylus source
-  where
-    stylus = unixFilter "./node_modules/.bin/stylus" ["-I", "css"]
+  dateField "date" "%B %e, %Y"
+    `mappend` defaultContext
 
 ------------------------------------------------------------------- [ deploys ]
 
 config :: Configuration
-config = defaultConfiguration { deploySite = doDeploy }
+config = defaultConfiguration {deploySite = doDeploy}
 
 -- Custom deploy function: use rsync over SSH. Set the "DEST" environment
 -- variable to deploy to other mirrors.
@@ -165,6 +157,7 @@ defaultDeployDest = "/tmp/www"
 -- Lookup DEST env var, to build a deploy command.
 deployCmd :: IO String
 deployCmd = do
-    dest <- lookupEnv "DEST"
-    return $ case dest of Nothing -> deployProgram ++ defaultDeployDest
-                          Just x  -> deployProgram ++ x
+  dest <- lookupEnv "DEST"
+  return $ case dest of
+    Nothing -> deployProgram ++ defaultDeployDest
+    Just x -> deployProgram ++ x
