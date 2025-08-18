@@ -10,6 +10,4 @@
 @import url("code.css");
 
 @import url("layout-default.css");
-@media all and (max-width: 699px) {
-    @import url("layout-small.css");
-}
+@import url("layout-small.css");

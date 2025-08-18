@@ -55,7 +55,7 @@ assetsRules = do
     route idRoute
     compile copyFileCompiler
 
-  match "css/code/**" $ do
+  match "css/vendor/*.css" $ do
     route idRoute
     compile copyFileCompiler
 
