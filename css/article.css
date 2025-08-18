@@ -1,0 +1,68 @@
+/* An (blog) article */
+
+article {
+  padding: 0 0;
+}
+
+article header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+article header .date {
+  text-align: right;
+  display: block;
+  font-size: 0.55em;
+}
+
+article figure {
+  text-align: center;
+}
+
+article figure img {
+  max-width: 100%;
+}
+
+article figure figcaption {
+  color: var(--img-caption-color);
+  font-size: 0.55em;
+  font-family: "verdana", sans-serif;
+  margin-top: 0px;
+  padding-top: 3px;
+}
+
+article table {
+  margin: 15px 0;
+  width: 100%;
+}
+
+article table thead tr {
+  border-bottom: 1px #4a4a4a solid; /* lightened background color */
+}
+
+article table tbody .even {
+  background-color: #383838; /* slightly lightened background color */
+}
+
+article blockquote {
+  background-color: #3a3a3a; /* lightened background color */
+  border-radius: 5px;
+}
+
+article blockquote p {
+  padding: 10px;
+  font-style: italic;
+}
+
+article pre {
+  background-color: #2e2e2e; /* darkened background color */
+  padding: 8px;
+  border-radius: 5px;
+}
+
+article .sourceCode {
+  background-color: #2e2e2e; /* darkened background color */
+  padding: 8px;
+  border-radius: 5px;
+}
