@@ -85,7 +85,7 @@ I'm usually shooting with:
 
 - a [Ricoh GRIIIx][ricoh-gr3x], because it's incredibly powerful for
 such a small thing.
-- a [Leica M6 TTL][m6], with 35mm and 55mm lenses, and recently
+- a [Leica M6 TTL][m6], with 35mm and 50mm lenses, and recently
 - trying a [Rollei 35 AF][rollei35af], and of course
 - an iPhone when all else fails.
 
